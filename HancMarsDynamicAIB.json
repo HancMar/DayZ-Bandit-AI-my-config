@@ -8,7 +8,7 @@
     "sniperDefensiveAggroSeconds": 30,
     "GroupLocations": [
         {
-            "name": "ELEKTRO",
+            "name": "ELEKTRO_T1",
             "faction": "Bandits",
             "waypoints": [
                 "10011.900391 6.000000 2067.800049",
@@ -24,7 +24,8 @@
             ],
             "npcclasses": [
                 "BanditAI_Rolf",
-                "BanditAI_Denis"
+                "BanditAI_Denis",
+                "BanditAI_Boris"
             ],
             "accuracy": 30.0,
             "grenadechance": 0.0,
@@ -32,45 +33,64 @@
             "weaponpool": [
                 "Machete",
                 "Cleaver",
-                "BaseballBat",
                 "Pipe",
-                "SharpLongWoodenStick",
-                "Predefined_Ruger"
+                "Predefined_Ruger",
+                "Predefined_Izh18",
+                "Predefined_IJ",
+                "Predefined_Sawedoff"
             ],
             "npcproperties": {
                 "headgear": [
                     "BaseballCap_Camo",
                     "BeanieHat_Black",
                     "DarkMotoHelmet_Grey",
-                    "FlatCap_BlackCheck"
+                    "FlatCap_BlackCheck",
+                    "PrisonerCap",
+                    "Keffiyeh_LightBrown",
+                    "ZmijovkaCap_Black",
+                    "Shemag_Green"
                 ],
                 "masks": [],
                 "vests": [],
-                "backpacks": [],
+                "backpacks": [
+                    "SlingBag_Black",
+                    "DuffelBagSmall_Green",
+                    "CourierBag"
+                ],
                 "bodywear": [
                     "DenimJacket",
                     "HikingJacket_Blue",
                     "Hoodie_Brown",
                     "Raincoat_Green",
                     "TShirt_Beige",
-                    "HikingJacket_Black"
+                    "HikingJacket_Black",
+                    "PrisonUniformJacket",
+                    "PoliceShortSleeveShirt"
                 ],
-                "belts": [],
+                "belts": [
+                    "CivilianBelt"
+                ],
                 "pants": [
                     "Jeans_Blue",
                     "Jeans_Grey",
                     "TrackSuitPants_Black",
                     "CargoPants_Beige",
-                    "CanvasPantsMidi_Blue"
+                    "CanvasPantsMidi_Blue",
+                    "PrisonUniformPants"
                 ],
                 "shoes": [
                     "AthleticShoes_Black",
                     "AthleticShoes_Blue",
                     "AthleticShoes_Brown",
                     "AthleticShoes_Green",
-                    "AthleticShoes_Grey"
+                    "AthleticShoes_Grey",
+                    "TraditionalSandalShoes_Black",
+                    "SandalsShoes_Black"
                 ],
-                "gloves": [],
+                "gloves": [
+                    "HandsCover_Improvised",
+                    "WoolGlovesFingerless_Black"
+                ],
                 "armband": [],
                 "loot": [
                     "Rag",
@@ -81,12 +101,15 @@
                     "Apple",
                     "Tomato",
                     "CanOpener",
-                    "SmallGasCanister"
+                    "SmallGasCanister",
+                    "AmmoBox_22_50Rnd",
+                    "AmmoBox_762x39Tracer_20Rnd",
+                    "DuctTape"
                 ]
             }
         },
         {
-            "name": "CHERNO",
+            "name": "CHERNO_T1",
             "faction": "Bandits",
             "waypoints": [
                 "7311.549805 24.106800 3060.129883",
@@ -98,7 +121,8 @@
             ],
             "npcclasses": [
                 "BanditAI_Rolf",
-                "BanditAI_Denis"
+                "BanditAI_Adam",
+                "BanditAI_Boris"
             ],
             "accuracy": 30.0,
             "grenadechance": 0.0,
@@ -106,45 +130,64 @@
             "weaponpool": [
                 "Machete",
                 "Cleaver",
-                "BaseballBat",
                 "Pipe",
-                "SharpLongWoodenStick",
-                "Predefined_Ruger"
+                "Predefined_Ruger",
+                "Predefined_Izh18",
+                "Predefined_IJ",
+                "Predefined_Sawedoff"
             ],
             "npcproperties": {
                 "headgear": [
                     "BaseballCap_Camo",
                     "BeanieHat_Black",
                     "DarkMotoHelmet_Grey",
-                    "FlatCap_BlackCheck"
+                    "FlatCap_BlackCheck",
+                    "PrisonerCap",
+                    "Keffiyeh_LightBrown",
+                    "ZmijovkaCap_Black",
+                    "Shemag_Green"
                 ],
                 "masks": [],
                 "vests": [],
-                "backpacks": [],
+                "backpacks": [
+                    "SlingBag_Black",
+                    "DuffelBagSmall_Green",
+                    "CourierBag"
+                ],
                 "bodywear": [
                     "DenimJacket",
                     "HikingJacket_Blue",
                     "Hoodie_Brown",
                     "Raincoat_Green",
                     "TShirt_Beige",
-                    "HikingJacket_Black"
+                    "HikingJacket_Black",
+                    "PrisonUniformJacket",
+                    "PoliceShortSleeveShirt"
                 ],
-                "belts": [],
+                "belts": [
+                    "CivilianBelt"
+                ],
                 "pants": [
                     "Jeans_Blue",
                     "Jeans_Grey",
                     "TrackSuitPants_Black",
                     "CargoPants_Beige",
-                    "CanvasPantsMidi_Blue"
+                    "CanvasPantsMidi_Blue",
+                    "PrisonUniformPants"
                 ],
                 "shoes": [
                     "AthleticShoes_Black",
                     "AthleticShoes_Blue",
                     "AthleticShoes_Brown",
                     "AthleticShoes_Green",
-                    "AthleticShoes_Grey"
+                    "AthleticShoes_Grey",
+                    "TraditionalSandalShoes_Black",
+                    "SandalsShoes_Black"
                 ],
-                "gloves": [],
+                "gloves": [
+                    "HandsCover_Improvised",
+                    "WoolGlovesFingerless_Black"
+                ],
                 "armband": [],
                 "loot": [
                     "Rag",
@@ -155,12 +198,15 @@
                     "Apple",
                     "Tomato",
                     "CanOpener",
-                    "SmallGasCanister"
+                    "SmallGasCanister",
+                    "AmmoBox_22_50Rnd",
+                    "AmmoBox_762x39Tracer_20Rnd",
+                    "DuctTape"
                 ]
             }
         },
         {
-            "name": "TIKHIYZALIV_MILITARY",
+            "name": "TIKHIYZALIV_MILITARY_T15",
             "faction": "Bandits",
             "waypoints": [
                 "714.872009 6.129929 1869.550049",
@@ -170,7 +216,8 @@
             "npcclasses": [
                 "BanditAI_Rolf",
                 "BanditAI_Denis",
-                "BanditAI_Adam"
+                "BanditAI_Boris",
+                "BanditAI_Francis"
             ],
             "accuracy": 30.0,
             "grenadechance": 0.0,
@@ -178,45 +225,64 @@
             "weaponpool": [
                 "Machete",
                 "Cleaver",
-                "BaseballBat",
                 "Pipe",
-                "SharpLongWoodenStick",
-                "Predefined_Ruger"
+                "Predefined_Ruger",
+                "Predefined_Izh18",
+                "Predefined_IJ",
+                "Predefined_Repeater"
             ],
             "npcproperties": {
                 "headgear": [
                     "BaseballCap_Camo",
                     "BeanieHat_Black",
                     "DarkMotoHelmet_Grey",
-                    "FlatCap_BlackCheck"
+                    "FlatCap_BlackCheck",
+                    "PrisonerCap",
+                    "Keffiyeh_LightBrown",
+                    "ZmijovkaCap_Black",
+                    "Shemag_Green"
                 ],
                 "masks": [],
                 "vests": [],
-                "backpacks": [],
+                "backpacks": [
+                    "SlingBag_Black",
+                    "DuffelBagSmall_Green",
+                    "CourierBag"
+                ],
                 "bodywear": [
                     "DenimJacket",
-                    "HikingJacket_Blue",
+                    "Sweater_Green",
                     "Hoodie_Brown",
-                    "Raincoat_Green",
+                    "OBRJacket_Beige",
                     "TShirt_Beige",
-                    "HikingJacket_Black"
+                    "HikingJacket_Black",
+                    "PrisonUniformJacket",
+                    "GulagJacket_Grey"
                 ],
-                "belts": [],
+                "belts": [
+                    "CivilianBelt"
+                ],
                 "pants": [
                     "Jeans_Blue",
                     "Jeans_Grey",
                     "TrackSuitPants_Black",
                     "CargoPants_Beige",
-                    "CanvasPantsMidi_Blue"
+                    "LeatherPants_Black",
+                    "PrisonUniformPants"
                 ],
                 "shoes": [
                     "AthleticShoes_Black",
                     "AthleticShoes_Blue",
                     "AthleticShoes_Brown",
                     "AthleticShoes_Green",
-                    "AthleticShoes_Grey"
+                    "AthleticShoes_Grey",
+                    "TTSKOBoots",
+                    "HikingBoots_Black"
                 ],
-                "gloves": [],
+                "gloves": [
+                    "HandsCover_Improvised",
+                    "WoolGlovesFingerless_Black"
+                ],
                 "armband": [],
                 "loot": [
                     "Rag",
@@ -227,12 +293,16 @@
                     "Apple",
                     "Tomato",
                     "CanOpener",
-                    "SmallGasCanister"
+                    "SmallGasCanister",
+                    "AmmoBox_22_50Rnd",
+                    "AmmoBox_762x39Tracer_20Rnd",
+                    "AmmoBox_357_20Rnd",
+                    "DuctTape"
                 ]
             }
         },
         {
-            "name": "BALOTA_AIRSTRIP",
+            "name": "BALOTA_AIRSTRIP_T15",
             "faction": "Bandits",
             "waypoints": [
                 "5227.279785 9.500000 2170.929932",
@@ -243,7 +313,8 @@
             "npcclasses": [
                 "BanditAI_Rolf",
                 "BanditAI_Denis",
-                "BanditAI_Adam"
+                "BanditAI_Boris",
+                "BanditAI_Francis"
             ],
             "accuracy": 30.0,
             "grenadechance": 0.0,
@@ -251,45 +322,64 @@
             "weaponpool": [
                 "Machete",
                 "Cleaver",
-                "BaseballBat",
                 "Pipe",
-                "SharpLongWoodenStick",
-                "Predefined_Ruger"
+                "Predefined_Ruger",
+                "Predefined_Izh18",
+                "Predefined_IJ",
+                "Predefined_Repeater"
             ],
             "npcproperties": {
                 "headgear": [
                     "BaseballCap_Camo",
                     "BeanieHat_Black",
                     "DarkMotoHelmet_Grey",
-                    "FlatCap_BlackCheck"
+                    "FlatCap_BlackCheck",
+                    "PrisonerCap",
+                    "Keffiyeh_LightBrown",
+                    "ZmijovkaCap_Black",
+                    "Shemag_Green"
                 ],
                 "masks": [],
                 "vests": [],
-                "backpacks": [],
+                "backpacks": [
+                    "SlingBag_Black",
+                    "DuffelBagSmall_Green",
+                    "CourierBag"
+                ],
                 "bodywear": [
                     "DenimJacket",
-                    "HikingJacket_Blue",
+                    "Sweater_Green",
                     "Hoodie_Brown",
-                    "Raincoat_Green",
+                    "OBRJacket_Beige",
                     "TShirt_Beige",
-                    "HikingJacket_Black"
+                    "HikingJacket_Black",
+                    "PrisonUniformJacket",
+                    "GulagJacket_Grey"
                 ],
-                "belts": [],
+                "belts": [
+                    "CivilianBelt"
+                ],
                 "pants": [
                     "Jeans_Blue",
                     "Jeans_Grey",
                     "TrackSuitPants_Black",
                     "CargoPants_Beige",
-                    "CanvasPantsMidi_Blue"
+                    "LeatherPants_Black",
+                    "PrisonUniformPants"
                 ],
                 "shoes": [
                     "AthleticShoes_Black",
                     "AthleticShoes_Blue",
                     "AthleticShoes_Brown",
                     "AthleticShoes_Green",
-                    "AthleticShoes_Grey"
+                    "AthleticShoes_Grey",
+                    "TTSKOBoots",
+                    "HikingBoots_Black"
                 ],
-                "gloves": [],
+                "gloves": [
+                    "HandsCover_Improvised",
+                    "WoolGlovesFingerless_Black"
+                ],
                 "armband": [],
                 "loot": [
                     "Rag",
@@ -300,12 +390,16 @@
                     "Apple",
                     "Tomato",
                     "CanOpener",
-                    "SmallGasCanister"
+                    "SmallGasCanister",
+                    "AmmoBox_22_50Rnd",
+                    "AmmoBox_762x39Tracer_20Rnd",
+                    "AmmoBox_357_20Rnd",
+                    "DuctTape"
                 ]
             }
         },
         {
-            "name": "BEREZINO",
+            "name": "BEREZINO_T1",
             "faction": "Bandits",
             "waypoints": [
                 "12044.700195 54.006100 9095.139648",
@@ -317,7 +411,8 @@
             ],
             "npcclasses": [
                 "BanditAI_Rolf",
-                "BanditAI_Denis"
+                "BanditAI_Denis",
+                "BanditAI_Boris"
             ],
             "accuracy": 30.0,
             "grenadechance": 0.0,
@@ -325,45 +420,64 @@
             "weaponpool": [
                 "Machete",
                 "Cleaver",
-                "BaseballBat",
                 "Pipe",
-                "SharpLongWoodenStick",
-                "Predefined_Ruger"
+                "Predefined_Ruger",
+                "Predefined_Izh18",
+                "Predefined_IJ",
+                "Predefined_Sawedoff"
             ],
             "npcproperties": {
                 "headgear": [
                     "BaseballCap_Camo",
                     "BeanieHat_Black",
                     "DarkMotoHelmet_Grey",
-                    "FlatCap_BlackCheck"
+                    "FlatCap_BlackCheck",
+                    "PrisonerCap",
+                    "Keffiyeh_LightBrown",
+                    "ZmijovkaCap_Black",
+                    "Shemag_Green"
                 ],
                 "masks": [],
                 "vests": [],
-                "backpacks": [],
+                "backpacks": [
+                    "SlingBag_Black",
+                    "DuffelBagSmall_Green",
+                    "CourierBag"
+                ],
                 "bodywear": [
                     "DenimJacket",
                     "HikingJacket_Blue",
                     "Hoodie_Brown",
                     "Raincoat_Green",
                     "TShirt_Beige",
-                    "HikingJacket_Black"
+                    "HikingJacket_Black",
+                    "PrisonUniformJacket",
+                    "PoliceShortSleeveShirt"
                 ],
-                "belts": [],
+                "belts": [
+                    "CivilianBelt"
+                ],
                 "pants": [
                     "Jeans_Blue",
                     "Jeans_Grey",
                     "TrackSuitPants_Black",
                     "CargoPants_Beige",
-                    "CanvasPantsMidi_Blue"
+                    "CanvasPantsMidi_Blue",
+                    "PrisonUniformPants"
                 ],
                 "shoes": [
                     "AthleticShoes_Black",
                     "AthleticShoes_Blue",
                     "AthleticShoes_Brown",
                     "AthleticShoes_Green",
-                    "AthleticShoes_Grey"
+                    "AthleticShoes_Grey",
+                    "TraditionalSandalShoes_Black",
+                    "SandalsShoes_Black"
                 ],
-                "gloves": [],
+                "gloves": [
+                    "HandsCover_Improvised",
+                    "WoolGlovesFingerless_Black"
+                ],
                 "armband": [],
                 "loot": [
                     "Rag",
@@ -374,12 +488,15 @@
                     "Apple",
                     "Tomato",
                     "CanOpener",
-                    "SmallGasCanister"
+                    "SmallGasCanister",
+                    "AmmoBox_22_50Rnd",
+                    "AmmoBox_762x39Tracer_20Rnd",
+                    "DuctTape"
                 ]
             }
         },
         {
-            "name": "SVETLORASK",
+            "name": "SVETLORASK_T1",
             "faction": "Bandits",
             "waypoints": [
                 "13717.599609 22.209400 13298.700195",
@@ -391,7 +508,8 @@
             ],
             "npcclasses": [
                 "BanditAI_Rolf",
-                "BanditAI_Denis"
+                "BanditAI_Denis",
+                "BanditAI_Boris"
             ],
             "accuracy": 30.0,
             "grenadechance": 0.0,
@@ -399,45 +517,64 @@
             "weaponpool": [
                 "Machete",
                 "Cleaver",
-                "BaseballBat",
                 "Pipe",
-                "SharpLongWoodenStick",
-                "Predefined_Ruger"
+                "Predefined_Ruger",
+                "Predefined_Izh18",
+                "Predefined_IJ",
+                "Predefined_Sawedoff"
             ],
             "npcproperties": {
                 "headgear": [
                     "BaseballCap_Camo",
                     "BeanieHat_Black",
                     "DarkMotoHelmet_Grey",
-                    "FlatCap_BlackCheck"
+                    "FlatCap_BlackCheck",
+                    "PrisonerCap",
+                    "Keffiyeh_LightBrown",
+                    "ZmijovkaCap_Black",
+                    "Shemag_Green"
                 ],
                 "masks": [],
                 "vests": [],
-                "backpacks": [],
+                "backpacks": [
+                    "SlingBag_Black",
+                    "DuffelBagSmall_Green",
+                    "CourierBag"
+                ],
                 "bodywear": [
                     "DenimJacket",
                     "HikingJacket_Blue",
                     "Hoodie_Brown",
                     "Raincoat_Green",
                     "TShirt_Beige",
-                    "HikingJacket_Black"
+                    "HikingJacket_Black",
+                    "PrisonUniformJacket",
+                    "PoliceShortSleeveShirt"
                 ],
-                "belts": [],
+                "belts": [
+                    "CivilianBelt"
+                ],
                 "pants": [
                     "Jeans_Blue",
                     "Jeans_Grey",
                     "TrackSuitPants_Black",
                     "CargoPants_Beige",
-                    "CanvasPantsMidi_Blue"
+                    "CanvasPantsMidi_Blue",
+                    "PrisonUniformPants"
                 ],
                 "shoes": [
                     "AthleticShoes_Black",
                     "AthleticShoes_Blue",
                     "AthleticShoes_Brown",
                     "AthleticShoes_Green",
-                    "AthleticShoes_Grey"
+                    "AthleticShoes_Grey",
+                    "TraditionalSandalShoes_Black",
+                    "SandalsShoes_Black"
                 ],
-                "gloves": [],
+                "gloves": [
+                    "HandsCover_Improvised",
+                    "WoolGlovesFingerless_Black"
+                ],
                 "armband": [],
                 "loot": [
                     "Rag",
@@ -448,12 +585,15 @@
                     "Apple",
                     "Tomato",
                     "CanOpener",
-                    "SmallGasCanister"
+                    "SmallGasCanister",
+                    "AmmoBox_22_50Rnd",
+                    "AmmoBox_762x39Tracer_20Rnd",
+                    "DuctTape"
                 ]
             }
         },
         {
-            "name": "ZELENOGORSK",
+            "name": "ZELENOGORSK_T15",
             "faction": "Bandits",
             "waypoints": [
                 "2502.512939 191.321335 5134.916992",
@@ -465,56 +605,48 @@
             "npcclasses": [
                 "BanditAI_Rolf",
                 "BanditAI_Denis",
-                "BanditAI_Adam"
+                "BanditAI_Boris",
+                "BanditAI_Francis"
             ],
             "accuracy": 30.0,
             "grenadechance": 0.0,
             "dog": 1,
             "weaponpool": [
-                "NailedBaseballBat",
+                "Machete",
+                "Cleaver",
+                "Pipe",
+                "Predefined_Ruger",
+                "Predefined_Izh18",
                 "Predefined_IJ",
-                "Predefined_Sawedoff",
-                "Predefined_M1911",
-                "Predefined_RAK",
-                "Predefined_Ruger"
+                "Predefined_Repeater"
             ],
             "npcproperties": {
                 "headgear": [
-                    "DarkMotoHelmet_Grey",
-                    "Bandana_Blackpattern",
+                    "BaseballCap_Camo",
                     "BeanieHat_Black",
-                    "BoonieHat_Tan",
-                    "HeadCover_Improvised",
-                    "Headtorch_Black",
-                    "Ushanka_Black",
-                    "WeldingMask"
+                    "DarkMotoHelmet_Grey",
+                    "FlatCap_BlackCheck",
+                    "PrisonerCap",
+                    "Keffiyeh_LightBrown",
+                    "ZmijovkaCap_Black",
+                    "Shemag_Green"
                 ],
-                "masks": [
-                    "Balaclava3Holes_Black",
-                    "BandanaMask_BlackPattern",
-                    "BandanaMask_RedPattern",
-                    "Balaclava3Holes_Beige",
-                    "FaceCover_Improvised"
-                ],
-                "vests": [
-                    "ChestHolster"
-                ],
+                "masks": [],
+                "vests": [],
                 "backpacks": [
-                    "CourierBag",
-                    "ImprovisedBag",
-                    "FurImprovisedBag",
-                    "TaloonBag_Blue"
+                    "SlingBag_Black",
+                    "DuffelBagSmall_Green",
+                    "CourierBag"
                 ],
                 "bodywear": [
                     "DenimJacket",
                     "Sweater_Green",
                     "Hoodie_Brown",
-                    "RidersJacket_Black",
-                    "Hoodie_Black",
+                    "OBRJacket_Beige",
+                    "TShirt_Beige",
                     "HikingJacket_Black",
-                    "BomberJacket_Brown",
-                    "BomberJacket_SkyBlue",
-                    "TrackSuitJacket_Black"
+                    "PrisonUniformJacket",
+                    "GulagJacket_Grey"
                 ],
                 "belts": [
                     "CivilianBelt"
@@ -524,49 +656,42 @@
                     "Jeans_Grey",
                     "TrackSuitPants_Black",
                     "CargoPants_Beige",
-                    "CanvasPantsMidi_Blue"
+                    "LeatherPants_Black",
+                    "PrisonUniformPants"
                 ],
                 "shoes": [
-                    "HikingBootsLow_Black",
-                    "HikingBoots_Black",
-                    "HikingBoots_Brown",
-                    "WorkingBoots_Grey",
-                    "WorkingBoots_Brown"
+                    "AthleticShoes_Black",
+                    "AthleticShoes_Blue",
+                    "AthleticShoes_Brown",
+                    "AthleticShoes_Green",
+                    "AthleticShoes_Grey",
+                    "TTSKOBoots",
+                    "HikingBoots_Black"
                 ],
                 "gloves": [
                     "HandsCover_Improvised",
-                    "SurgicalGloves_White",
-                    "WorkingGloves_Brown",
                     "WoolGlovesFingerless_Black"
                 ],
-                "armband": [
-                    "Armband_Cannibals"
-                ],
+                "armband": [],
                 "loot": [
                     "Rag",
                     "Pajka",
                     "SodaCan_Spite",
-                    "AmmoBox_380_35rnd",
+                    "BoneKnife",
                     "HumanSteakMeat",
                     "Apple",
                     "Tomato",
-                    "AmmoBox_00buck_10rnd",
-                    "AmmoBox_9x19_25rnd",
-                    "Ammo_380",
-                    "Ammo_12gaPellets",
-                    "Ammo_9x19",
-                    "Hacksaw",
-                    "Handcuffs",
-                    "HandcuffKeys",
-                    "HuntingKnife",
-                    "BakedBeansCan",
-                    "TunaCan",
-                    "UnknownFoodCan"
+                    "CanOpener",
+                    "SmallGasCanister",
+                    "AmmoBox_22_50Rnd",
+                    "AmmoBox_762x39Tracer_20Rnd",
+                    "AmmoBox_357_20Rnd",
+                    "DuctTape"
                 ]
             }
         },
         {
-            "name": "ARSENOVO",
+            "name": "ARSENOVO_T3",
             "faction": "Bandits",
             "waypoints": [
                 "8451.389648 205.313995 13952.000000",
@@ -578,27 +703,29 @@
                 "BanditAI_Linda",
                 "BanditAI_Rolf",
                 "BanditAI_Denis",
-                "BanditAI_Adam"
+                "BanditAI_Adam",
+                "BanditAI_Hassan",
+                "BanditAI_Jose"
             ],
             "accuracy": 30.0,
             "grenadechance": 0.0,
             "dog": 1,
             "weaponpool": [
-                "NailedBaseballBat",
-                "Predefined_IJ",
-                "Predefined_Sawedoff",
-                "Predefined_M1911",
+                "Predefined_LeeEnfield",
+                "Predefined_MP133",
+                "Predefined_Bizon",
+                "Predefined_Repeater",
                 "Predefined_RAK",
-                "Predefined_Ruger"
+                "Scimitar"
             ],
             "npcproperties": {
                 "headgear": [
                     "DarkMotoHelmet_Grey",
                     "Bandana_Blackpattern",
                     "BeanieHat_Black",
-                    "BoonieHat_Tan",
-                    "HeadCover_Improvised",
-                    "Headtorch_Black",
+                    "Ssh68Helmet",
+                    "SnowstormUshanka_Olive",
+                    "TankerHelmet",
                     "Ushanka_Black",
                     "WeldingMask"
                 ],
@@ -610,46 +737,45 @@
                     "FaceCover_Improvised"
                 ],
                 "vests": [
-                    "ChestHolster"
+                    "ChestRigVest_Tan",
+                    "UKAssVest_Black"
                 ],
                 "backpacks": [
-                    "CourierBag",
-                    "ImprovisedBag",
-                    "FurImprovisedBag",
-                    "TaloonBag_Blue"
+                    "AliceBag_Black",
+                    "DryBag_Black",
+                    "HuntingBag"
                 ],
                 "bodywear": [
-                    "DenimJacket",
+                    "BushlatPoliceJacket_Blue",
                     "Sweater_Green",
-                    "Hoodie_Brown",
-                    "RidersJacket_Black",
+                    "M65Jacket_Black",
+                    "PilotJacket_Brown",
                     "Hoodie_Black",
-                    "HikingJacket_Black",
+                    "PilotJacket_Yellow",
                     "BomberJacket_Brown",
-                    "BomberJacket_SkyBlue",
-                    "TrackSuitJacket_Black"
+                    "WinterMilitaryCoat_Grey",
+                    "WinterMilitaryCoat_DarkGrey"
                 ],
                 "belts": [
                     "CivilianBelt"
                 ],
                 "pants": [
-                    "Jeans_Blue",
+                    "CargoPants_Black",
                     "Jeans_Grey",
-                    "TrackSuitPants_Black",
-                    "CargoPants_Beige",
-                    "CanvasPantsMidi_Blue"
+                    "GorkaPants_Flat",
+                    "PolicePantsOrel"
                 ],
                 "shoes": [
                     "HikingBootsLow_Black",
                     "HikingBoots_Black",
                     "HikingBoots_Brown",
-                    "WorkingBoots_Grey",
-                    "WorkingBoots_Brown"
+                    "ColdOperationBoots_Green",
+                    "CombatBoots_Black"
                 ],
                 "gloves": [
-                    "HandsCover_Improvised",
-                    "SurgicalGloves_White",
-                    "WorkingGloves_Brown",
+                    "WoolGlovesFingerless_Green",
+                    "PaddedGloves_Brown",
+                    "OMNOGloves_Gray",
                     "WoolGlovesFingerless_Black"
                 ],
                 "armband": [
@@ -674,12 +800,17 @@
                     "HuntingKnife",
                     "BakedBeansCan",
                     "TunaCan",
-                    "UnknownFoodCan"
+                    "UnknownFoodCan",
+                    "Ammo_762x54",
+                    "AmmoBox_762x54_20Rnd",
+                    "AmmoBox_357_20Rnd",
+                    "Ammo_357",
+                    "DuctTape"
                 ]
             }
         },
         {
-            "name": "ZAPRUDNOYE_MILITARY",
+            "name": "ZAPRUDNOYE_MILITARY_T3",
             "faction": "Bandits",
             "waypoints": [
                 "4931.839844 170.117996 12959.200195",
@@ -689,29 +820,29 @@
             ],
             "npcclasses": [
                 "BanditAI_Linda",
-                "BanditAI_Rolf",
                 "BanditAI_Denis",
-                "BanditAI_Adam"
+                "BanditAI_Adam",
+                "BanditAI_Hassan"
             ],
             "accuracy": 30.0,
             "grenadechance": 0.0,
             "dog": 1,
             "weaponpool": [
-                "NailedBaseballBat",
-                "Predefined_IJ",
-                "Predefined_Sawedoff",
-                "Predefined_M1911",
+                "Predefined_LeeEnfield",
+                "Predefined_MP133",
+                "Predefined_Bizon",
+                "Predefined_Repeater",
                 "Predefined_RAK",
-                "Predefined_Ruger"
+                "Scimitar"
             ],
             "npcproperties": {
                 "headgear": [
                     "DarkMotoHelmet_Grey",
                     "Bandana_Blackpattern",
                     "BeanieHat_Black",
-                    "BoonieHat_Tan",
-                    "HeadCover_Improvised",
-                    "Headtorch_Black",
+                    "Ssh68Helmet",
+                    "SnowstormUshanka_Olive",
+                    "TankerHelmet",
                     "Ushanka_Black",
                     "WeldingMask"
                 ],
@@ -723,46 +854,45 @@
                     "FaceCover_Improvised"
                 ],
                 "vests": [
-                    "ChestHolster"
+                    "ChestRigVest_Tan",
+                    "UKAssVest_Black"
                 ],
                 "backpacks": [
-                    "CourierBag",
-                    "ImprovisedBag",
-                    "FurImprovisedBag",
-                    "TaloonBag_Blue"
+                    "AliceBag_Black",
+                    "DryBag_Black",
+                    "HuntingBag"
                 ],
                 "bodywear": [
-                    "DenimJacket",
+                    "BushlatPoliceJacket_Blue",
                     "Sweater_Green",
-                    "Hoodie_Brown",
-                    "RidersJacket_Black",
+                    "M65Jacket_Black",
+                    "PilotJacket_Brown",
                     "Hoodie_Black",
-                    "HikingJacket_Black",
+                    "PilotJacket_Yellow",
                     "BomberJacket_Brown",
-                    "BomberJacket_SkyBlue",
-                    "TrackSuitJacket_Black"
+                    "WinterMilitaryCoat_Grey",
+                    "WinterMilitaryCoat_DarkGrey"
                 ],
                 "belts": [
                     "CivilianBelt"
                 ],
                 "pants": [
-                    "Jeans_Blue",
+                    "CargoPants_Black",
                     "Jeans_Grey",
-                    "TrackSuitPants_Black",
-                    "CargoPants_Beige",
-                    "CanvasPantsMidi_Blue"
+                    "GorkaPants_Flat",
+                    "PolicePantsOrel"
                 ],
                 "shoes": [
                     "HikingBootsLow_Black",
                     "HikingBoots_Black",
                     "HikingBoots_Brown",
-                    "WorkingBoots_Grey",
-                    "WorkingBoots_Brown"
+                    "ColdOperationBoots_Green",
+                    "CombatBoots_Black"
                 ],
                 "gloves": [
-                    "HandsCover_Improvised",
-                    "SurgicalGloves_White",
-                    "WorkingGloves_Brown",
+                    "WoolGlovesFingerless_Green",
+                    "PaddedGloves_Brown",
+                    "OMNOGloves_Gray",
                     "WoolGlovesFingerless_Black"
                 ],
                 "armband": [
@@ -787,12 +917,17 @@
                     "HuntingKnife",
                     "BakedBeansCan",
                     "TunaCan",
-                    "UnknownFoodCan"
+                    "UnknownFoodCan",
+                    "Ammo_762x54",
+                    "AmmoBox_762x54_20Rnd",
+                    "AmmoBox_357_20Rnd",
+                    "Ammo_357",
+                    "DuctTape"
                 ]
             }
         },
         {
-            "name": "NOVAYA_PETROVKA",
+            "name": "NOVAYA_PETROVKA_T2",
             "faction": "Bandits",
             "waypoints": [
                 "3343.360107 197.759995 12830.700195",
@@ -804,53 +939,75 @@
             ],
             "npcclasses": [
                 "BanditAI_Rolf",
-                "BanditAI_Denis"
+                "BanditAI_Denis",
+                "BanditAI_Adam",
+                "BanditAI_Hassan"
             ],
             "accuracy": 30.0,
             "grenadechance": 0.0,
             "dog": 1,
             "weaponpool": [
                 "Machete",
-                "Cleaver",
-                "BaseballBat",
-                "Pipe",
-                "SharpLongWoodenStick",
-                "Predefined_Ruger"
+                "Predefined_Repeater",
+                "Predefined_MP133",
+                "Predefined_M1911",
+                "Predefined_MP18",
+                "Predefined_Engraved1911",
+                "Predefined_Repeater",
+                "Predefined_CZ75"
             ],
             "npcproperties": {
                 "headgear": [
                     "BaseballCap_Camo",
                     "BeanieHat_Black",
                     "DarkMotoHelmet_Grey",
-                    "FlatCap_BlackCheck"
+                    "Ushanka_Black",
+                    "CowboyHat_black"
                 ],
-                "masks": [],
-                "vests": [],
-                "backpacks": [],
+                "masks": [
+                    "Balaclava3Holes_Green",
+                    "FaceCover_Improvised"
+                ],
+                "vests": [
+                    "ChestHolster",
+                    "PoliceVest"
+                ],
+                "backpacks": [
+                    "DryBag_Green",
+                    "TaloonBag_Green",
+                    "LeatherSack_Natural"
+                ],
                 "bodywear": [
-                    "DenimJacket",
-                    "HikingJacket_Blue",
+                    "GulagJacket_Grey",
+                    "DownJacket_Green",
                     "Hoodie_Brown",
-                    "Raincoat_Green",
-                    "TShirt_Beige",
-                    "HikingJacket_Black"
+                    "BushlatPoliceJacket_Blue",
+                    "Sweater_Blue",
+                    "Sweater_Gray"
                 ],
-                "belts": [],
+                "belts": [
+                    "CivilianBelt"
+                ],
                 "pants": [
                     "Jeans_Blue",
                     "Jeans_Grey",
-                    "TrackSuitPants_Black",
                     "CargoPants_Beige",
-                    "CanvasPantsMidi_Blue"
+                    "CargoPants_Beige",
+                    "NavyUniformPants"
                 ],
                 "shoes": [
                     "AthleticShoes_Black",
-                    "AthleticShoes_Blue",
+                    "HikingBoots_Black",
                     "AthleticShoes_Brown",
-                    "AthleticShoes_Green",
+                    "WorkingBoots_Green",
                     "AthleticShoes_Grey"
                 ],
-                "gloves": [],
+                "gloves": [
+                    "WorkingGloves_Black",
+                    "OMNOGloves_Gray",
+                    "WoolGlovesFingerless_Black",
+                    "WoolGloves_Black"
+                ],
                 "armband": [],
                 "loot": [
                     "Rag",
@@ -861,12 +1018,23 @@
                     "Apple",
                     "Tomato",
                     "CanOpener",
-                    "SmallGasCanister"
+                    "SmallGasCanister",
+                    "AmmoBox_357_20Rnd",
+                    "Ammo_357",
+                    "AmmoBox_00buck_10rnd",
+                    "AmmoBox_9x19_25rnd",
+                    "Ammo_380",
+                    "Ammo_12gaPellets",
+                    "Ammo_9x19",
+                    "AmmoBox_380_35rnd",
+                    "Ammo_45ACP",
+                    "AmmoBox_45ACP_25rnd",
+                    "DuctTape"
                 ]
             }
         },
         {
-            "name": "SEVEROGRAD",
+            "name": "SEVEROGRAD_T2",
             "faction": "Bandits",
             "waypoints": [
                 "7601.620117 120.416000 12614.500000",
@@ -877,53 +1045,75 @@
             ],
             "npcclasses": [
                 "BanditAI_Rolf",
-                "BanditAI_Denis"
+                "BanditAI_Denis",
+                "BanditAI_Adam",
+                "BanditAI_Hassan"
             ],
             "accuracy": 30.0,
             "grenadechance": 0.0,
             "dog": 1,
             "weaponpool": [
                 "Machete",
-                "Cleaver",
-                "BaseballBat",
-                "Pipe",
-                "SharpLongWoodenStick",
-                "Predefined_Ruger"
+                "Predefined_Repeater",
+                "Predefined_MP133",
+                "Predefined_M1911",
+                "Predefined_MP18",
+                "Predefined_Engraved1911",
+                "Predefined_Repeater",
+                "Predefined_CZ75"
             ],
             "npcproperties": {
                 "headgear": [
                     "BaseballCap_Camo",
                     "BeanieHat_Black",
                     "DarkMotoHelmet_Grey",
-                    "FlatCap_BlackCheck"
+                    "Ushanka_Black",
+                    "CowboyHat_black"
                 ],
-                "masks": [],
-                "vests": [],
-                "backpacks": [],
+                "masks": [
+                    "Balaclava3Holes_Green",
+                    "FaceCover_Improvised"
+                ],
+                "vests": [
+                    "ChestHolster",
+                    "PoliceVest"
+                ],
+                "backpacks": [
+                    "DryBag_Green",
+                    "TaloonBag_Green",
+                    "LeatherSack_Natural"
+                ],
                 "bodywear": [
-                    "DenimJacket",
-                    "HikingJacket_Blue",
+                    "GulagJacket_Grey",
+                    "DownJacket_Green",
                     "Hoodie_Brown",
-                    "Raincoat_Green",
-                    "TShirt_Beige",
-                    "HikingJacket_Black"
+                    "BushlatPoliceJacket_Blue",
+                    "Sweater_Blue",
+                    "Sweater_Gray"
                 ],
-                "belts": [],
+                "belts": [
+                    "CivilianBelt"
+                ],
                 "pants": [
                     "Jeans_Blue",
                     "Jeans_Grey",
-                    "TrackSuitPants_Black",
                     "CargoPants_Beige",
-                    "CanvasPantsMidi_Blue"
+                    "CargoPants_Beige",
+                    "NavyUniformPants"
                 ],
                 "shoes": [
                     "AthleticShoes_Black",
-                    "AthleticShoes_Blue",
+                    "HikingBoots_Black",
                     "AthleticShoes_Brown",
-                    "AthleticShoes_Green",
+                    "WorkingBoots_Green",
                     "AthleticShoes_Grey"
                 ],
-                "gloves": [],
+                "gloves": [
+                    "WorkingGloves_Black",
+                    "OMNOGloves_Gray",
+                    "WoolGlovesFingerless_Black",
+                    "WoolGloves_Black"
+                ],
                 "armband": [],
                 "loot": [
                     "Rag",
@@ -934,12 +1124,23 @@
                     "Apple",
                     "Tomato",
                     "CanOpener",
-                    "SmallGasCanister"
+                    "SmallGasCanister",
+                    "AmmoBox_357_20Rnd",
+                    "Ammo_357",
+                    "AmmoBox_00buck_10rnd",
+                    "AmmoBox_9x19_25rnd",
+                    "Ammo_380",
+                    "Ammo_12gaPellets",
+                    "Ammo_9x19",
+                    "AmmoBox_380_35rnd",
+                    "Ammo_45ACP",
+                    "AmmoBox_45ACP_25rnd",
+                    "DuctTape"
                 ]
             }
         },
         {
-            "name": "KRASNOSTAV_AIRSTRIP",
+            "name": "KRASNOSTAV_AIRSTRIP_T15",
             "faction": "Bandits",
             "waypoints": [
                 "11876.299805 140.000000 12619.799805",
@@ -950,7 +1151,8 @@
             "npcclasses": [
                 "BanditAI_Rolf",
                 "BanditAI_Denis",
-                "BanditAI_Adam"
+                "BanditAI_Boris",
+                "BanditAI_Francis"
             ],
             "accuracy": 30.0,
             "grenadechance": 0.0,
@@ -958,45 +1160,64 @@
             "weaponpool": [
                 "Machete",
                 "Cleaver",
-                "BaseballBat",
                 "Pipe",
-                "SharpLongWoodenStick",
-                "Predefined_Ruger"
+                "Predefined_Ruger",
+                "Predefined_Izh18",
+                "Predefined_IJ",
+                "Predefined_Repeater"
             ],
             "npcproperties": {
                 "headgear": [
                     "BaseballCap_Camo",
                     "BeanieHat_Black",
                     "DarkMotoHelmet_Grey",
-                    "FlatCap_BlackCheck"
+                    "FlatCap_BlackCheck",
+                    "PrisonerCap",
+                    "Keffiyeh_LightBrown",
+                    "ZmijovkaCap_Black",
+                    "Shemag_Green"
                 ],
                 "masks": [],
                 "vests": [],
-                "backpacks": [],
+                "backpacks": [
+                    "SlingBag_Black",
+                    "DuffelBagSmall_Green",
+                    "CourierBag"
+                ],
                 "bodywear": [
                     "DenimJacket",
-                    "HikingJacket_Blue",
+                    "Sweater_Green",
                     "Hoodie_Brown",
-                    "Raincoat_Green",
+                    "OBRJacket_Beige",
                     "TShirt_Beige",
-                    "HikingJacket_Black"
+                    "HikingJacket_Black",
+                    "PrisonUniformJacket",
+                    "GulagJacket_Grey"
                 ],
-                "belts": [],
+                "belts": [
+                    "CivilianBelt"
+                ],
                 "pants": [
                     "Jeans_Blue",
                     "Jeans_Grey",
                     "TrackSuitPants_Black",
                     "CargoPants_Beige",
-                    "CanvasPantsMidi_Blue"
+                    "LeatherPants_Black",
+                    "PrisonUniformPants"
                 ],
                 "shoes": [
                     "AthleticShoes_Black",
                     "AthleticShoes_Blue",
                     "AthleticShoes_Brown",
                     "AthleticShoes_Green",
-                    "AthleticShoes_Grey"
+                    "AthleticShoes_Grey",
+                    "TTSKOBoots",
+                    "HikingBoots_Black"
                 ],
-                "gloves": [],
+                "gloves": [
+                    "HandsCover_Improvised",
+                    "WoolGlovesFingerless_Black"
+                ],
                 "armband": [],
                 "loot": [
                     "Rag",
@@ -1007,12 +1228,16 @@
                     "Apple",
                     "Tomato",
                     "CanOpener",
-                    "SmallGasCanister"
+                    "SmallGasCanister",
+                    "AmmoBox_22_50Rnd",
+                    "AmmoBox_762x39Tracer_20Rnd",
+                    "AmmoBox_357_20Rnd",
+                    "DuctTape"
                 ]
             }
         },
         {
-            "name": "KRASNOSTAV",
+            "name": "KRASNOSTAV_T1",
             "faction": "Bandits",
             "waypoints": [
                 "11053.400391 226.850006 12466.900391",
@@ -1023,7 +1248,8 @@
             ],
             "npcclasses": [
                 "BanditAI_Rolf",
-                "BanditAI_Denis"
+                "BanditAI_Denis",
+                "BanditAI_Boris"
             ],
             "accuracy": 30.0,
             "grenadechance": 0.0,
@@ -1031,45 +1257,64 @@
             "weaponpool": [
                 "Machete",
                 "Cleaver",
-                "BaseballBat",
                 "Pipe",
-                "SharpLongWoodenStick",
-                "Predefined_Ruger"
+                "Predefined_Ruger",
+                "Predefined_Izh18",
+                "Predefined_IJ",
+                "Predefined_Sawedoff"
             ],
             "npcproperties": {
                 "headgear": [
                     "BaseballCap_Camo",
                     "BeanieHat_Black",
                     "DarkMotoHelmet_Grey",
-                    "FlatCap_BlackCheck"
+                    "FlatCap_BlackCheck",
+                    "PrisonerCap",
+                    "Keffiyeh_LightBrown",
+                    "ZmijovkaCap_Black",
+                    "Shemag_Green"
                 ],
                 "masks": [],
                 "vests": [],
-                "backpacks": [],
+                "backpacks": [
+                    "SlingBag_Black",
+                    "DuffelBagSmall_Green",
+                    "CourierBag"
+                ],
                 "bodywear": [
                     "DenimJacket",
                     "HikingJacket_Blue",
                     "Hoodie_Brown",
                     "Raincoat_Green",
                     "TShirt_Beige",
-                    "HikingJacket_Black"
+                    "HikingJacket_Black",
+                    "PrisonUniformJacket",
+                    "PoliceShortSleeveShirt"
                 ],
-                "belts": [],
+                "belts": [
+                    "CivilianBelt"
+                ],
                 "pants": [
                     "Jeans_Blue",
                     "Jeans_Grey",
                     "TrackSuitPants_Black",
                     "CargoPants_Beige",
-                    "CanvasPantsMidi_Blue"
+                    "CanvasPantsMidi_Blue",
+                    "PrisonUniformPants"
                 ],
                 "shoes": [
                     "AthleticShoes_Black",
                     "AthleticShoes_Blue",
                     "AthleticShoes_Brown",
                     "AthleticShoes_Green",
-                    "AthleticShoes_Grey"
+                    "AthleticShoes_Grey",
+                    "TraditionalSandalShoes_Black",
+                    "SandalsShoes_Black"
                 ],
-                "gloves": [],
+                "gloves": [
+                    "HandsCover_Improvised",
+                    "WoolGlovesFingerless_Black"
+                ],
                 "armband": [],
                 "loot": [
                     "Rag",
@@ -1080,12 +1325,15 @@
                     "Apple",
                     "Tomato",
                     "CanOpener",
-                    "SmallGasCanister"
+                    "SmallGasCanister",
+                    "AmmoBox_22_50Rnd",
+                    "AmmoBox_762x39Tracer_20Rnd",
+                    "DuctTape"
                 ]
             }
         },
         {
-            "name": "NOVODMITROVSK",
+            "name": "NOVODMITROVSK_T2",
             "faction": "Bandits",
             "waypoints": [
                 "10789.700195 47.038101 14298.299805",
@@ -1097,53 +1345,75 @@
             ],
             "npcclasses": [
                 "BanditAI_Rolf",
-                "BanditAI_Denis"
+                "BanditAI_Denis",
+                "BanditAI_Adam",
+                "BanditAI_Hassan"
             ],
             "accuracy": 30.0,
             "grenadechance": 0.0,
             "dog": 1,
             "weaponpool": [
                 "Machete",
-                "Cleaver",
-                "BaseballBat",
-                "Pipe",
-                "SharpLongWoodenStick",
-                "Predefined_Ruger"
+                "Predefined_Repeater",
+                "Predefined_MP133",
+                "Predefined_M1911",
+                "Predefined_MP18",
+                "Predefined_Engraved1911",
+                "Predefined_Repeater",
+                "Predefined_CZ75"
             ],
             "npcproperties": {
                 "headgear": [
                     "BaseballCap_Camo",
                     "BeanieHat_Black",
                     "DarkMotoHelmet_Grey",
-                    "FlatCap_BlackCheck"
+                    "Ushanka_Black",
+                    "CowboyHat_black"
                 ],
-                "masks": [],
-                "vests": [],
-                "backpacks": [],
+                "masks": [
+                    "Balaclava3Holes_Green",
+                    "FaceCover_Improvised"
+                ],
+                "vests": [
+                    "ChestHolster",
+                    "PoliceVest"
+                ],
+                "backpacks": [
+                    "DryBag_Green",
+                    "TaloonBag_Green",
+                    "LeatherSack_Natural"
+                ],
                 "bodywear": [
-                    "DenimJacket",
-                    "HikingJacket_Blue",
+                    "GulagJacket_Grey",
+                    "DownJacket_Green",
                     "Hoodie_Brown",
-                    "Raincoat_Green",
-                    "TShirt_Beige",
-                    "HikingJacket_Black"
+                    "BushlatPoliceJacket_Blue",
+                    "Sweater_Blue",
+                    "Sweater_Gray"
                 ],
-                "belts": [],
+                "belts": [
+                    "CivilianBelt"
+                ],
                 "pants": [
                     "Jeans_Blue",
                     "Jeans_Grey",
-                    "TrackSuitPants_Black",
                     "CargoPants_Beige",
-                    "CanvasPantsMidi_Blue"
+                    "CargoPants_Beige",
+                    "NavyUniformPants"
                 ],
                 "shoes": [
                     "AthleticShoes_Black",
-                    "AthleticShoes_Blue",
+                    "HikingBoots_Black",
                     "AthleticShoes_Brown",
-                    "AthleticShoes_Green",
+                    "WorkingBoots_Green",
                     "AthleticShoes_Grey"
                 ],
-                "gloves": [],
+                "gloves": [
+                    "WorkingGloves_Black",
+                    "OMNOGloves_Gray",
+                    "WoolGlovesFingerless_Black",
+                    "WoolGloves_Black"
+                ],
                 "armband": [],
                 "loot": [
                     "Rag",
@@ -1154,12 +1424,23 @@
                     "Apple",
                     "Tomato",
                     "CanOpener",
-                    "SmallGasCanister"
+                    "SmallGasCanister",
+                    "AmmoBox_357_20Rnd",
+                    "Ammo_357",
+                    "AmmoBox_00buck_10rnd",
+                    "AmmoBox_9x19_25rnd",
+                    "Ammo_380",
+                    "Ammo_12gaPellets",
+                    "Ammo_9x19",
+                    "AmmoBox_380_35rnd",
+                    "Ammo_45ACP",
+                    "AmmoBox_45ACP_25rnd",
+                    "DuctTape"
                 ]
             }
         },
         {
-            "name": "SOBOR_PATROL",
+            "name": "SOBOR_PATROL_T2",
             "faction": "Bandits",
             "waypoints": [
                 "6012.410156 300.854004 7849.640137",
@@ -1174,56 +1455,52 @@
             "npcclasses": [
                 "BanditAI_Rolf",
                 "BanditAI_Denis",
-                "BanditAI_Adam"
+                "BanditAI_Adam",
+                "BanditAI_Hassan",
+                "BanditAI_Kaito",
+                "BanditAI_Lewis"
             ],
             "accuracy": 30.0,
             "grenadechance": 0.0,
             "dog": 1,
             "weaponpool": [
-                "NailedBaseballBat",
-                "Predefined_IJ",
-                "Predefined_Sawedoff",
+                "Machete",
+                "Predefined_Repeater",
+                "Predefined_MP133",
                 "Predefined_M1911",
-                "Predefined_RAK",
-                "Predefined_Ruger"
+                "Predefined_MP18",
+                "Predefined_Engraved1911",
+                "Predefined_Repeater",
+                "Predefined_CZ75"
             ],
             "npcproperties": {
                 "headgear": [
-                    "DarkMotoHelmet_Grey",
-                    "Bandana_Blackpattern",
+                    "BaseballCap_Camo",
                     "BeanieHat_Black",
-                    "BoonieHat_Tan",
-                    "HeadCover_Improvised",
-                    "Headtorch_Black",
+                    "DarkMotoHelmet_Grey",
                     "Ushanka_Black",
-                    "WeldingMask"
+                    "CowboyHat_black"
                 ],
                 "masks": [
-                    "Balaclava3Holes_Black",
-                    "BandanaMask_BlackPattern",
-                    "BandanaMask_RedPattern",
-                    "Balaclava3Holes_Beige",
+                    "Balaclava3Holes_Green",
                     "FaceCover_Improvised"
                 ],
                 "vests": [
-                    "ChestHolster"
+                    "ChestHolster",
+                    "PoliceVest"
                 ],
                 "backpacks": [
-                    "CourierBag",
-                    "ImprovisedBag",
-                    "FurImprovisedBag",
-                    "TaloonBag_Blue"
+                    "DryBag_Green",
+                    "TaloonBag_Green",
+                    "LeatherSack_Natural"
                 ],
                 "bodywear": [
-                    "DenimJacket",
-                    "Sweater_Green",
+                    "GulagJacket_Grey",
+                    "DownJacket_Green",
                     "Hoodie_Brown",
-                    "RidersJacket_Black",
-                    "Hoodie_Black",
-                    "HikingJacket_Black",
-                    "BomberJacket_Brown",
-                    "BomberJacket_SkyBlue",
-                    "TrackSuitJacket_Black"
+                    "BushlatPoliceJacket_Blue",
+                    "Sweater_Blue",
+                    "Sweater_Gray"
                 ],
                 "belts": [
                     "CivilianBelt"
@@ -1231,51 +1508,50 @@
                 "pants": [
                     "Jeans_Blue",
                     "Jeans_Grey",
-                    "TrackSuitPants_Black",
                     "CargoPants_Beige",
-                    "CanvasPantsMidi_Blue"
+                    "CargoPants_Beige",
+                    "NavyUniformPants"
                 ],
                 "shoes": [
-                    "HikingBootsLow_Black",
+                    "AthleticShoes_Black",
                     "HikingBoots_Black",
-                    "HikingBoots_Brown",
-                    "WorkingBoots_Grey",
-                    "WorkingBoots_Brown"
+                    "AthleticShoes_Brown",
+                    "WorkingBoots_Green",
+                    "AthleticShoes_Grey"
                 ],
                 "gloves": [
-                    "HandsCover_Improvised",
-                    "SurgicalGloves_White",
-                    "WorkingGloves_Brown",
-                    "WoolGlovesFingerless_Black"
+                    "WorkingGloves_Black",
+                    "OMNOGloves_Gray",
+                    "WoolGlovesFingerless_Black",
+                    "WoolGloves_Black"
                 ],
-                "armband": [
-                    "Armband_Cannibals"
-                ],
+                "armband": [],
                 "loot": [
                     "Rag",
                     "Pajka",
                     "SodaCan_Spite",
-                    "AmmoBox_380_35rnd",
+                    "BoneKnife",
                     "HumanSteakMeat",
                     "Apple",
                     "Tomato",
+                    "CanOpener",
+                    "SmallGasCanister",
+                    "AmmoBox_357_20Rnd",
+                    "Ammo_357",
                     "AmmoBox_00buck_10rnd",
                     "AmmoBox_9x19_25rnd",
                     "Ammo_380",
                     "Ammo_12gaPellets",
                     "Ammo_9x19",
-                    "Hacksaw",
-                    "Handcuffs",
-                    "HandcuffKeys",
-                    "HuntingKnife",
-                    "BakedBeansCan",
-                    "TunaCan",
-                    "UnknownFoodCan"
+                    "AmmoBox_380_35rnd",
+                    "Ammo_45ACP",
+                    "AmmoBox_45ACP_25rnd",
+                    "DuctTape"
                 ]
             }
         },
         {
-            "name": "GREEN_MOUNTAIN",
+            "name": "GREEN_MOUNTAIN_T2",
             "faction": "Bandits",
             "waypoints": [
                 "3695.530029 402.000000 6007.500000",
@@ -1285,57 +1561,52 @@
                 "3692.229980 396.320007 6063.350098"
             ],
             "npcclasses": [
+                "BanditAI_Rolf",
                 "BanditAI_Denis",
-                "BanditAI_Adam"
+                "BanditAI_Adam",
+                "BanditAI_Hassan"
             ],
             "accuracy": 30.0,
             "grenadechance": 0.0,
             "dog": 1,
             "weaponpool": [
-                "NailedBaseballBat",
-                "Predefined_IJ",
-                "Predefined_Sawedoff",
+                "Machete",
+                "Predefined_Repeater",
+                "Predefined_MP133",
                 "Predefined_M1911",
-                "Predefined_RAK",
-                "Predefined_Ruger"
+                "Predefined_MP18",
+                "Predefined_Engraved1911",
+                "Predefined_Repeater",
+                "Predefined_CZ75"
             ],
             "npcproperties": {
                 "headgear": [
-                    "DarkMotoHelmet_Grey",
-                    "Bandana_Blackpattern",
+                    "BaseballCap_Camo",
                     "BeanieHat_Black",
-                    "BoonieHat_Tan",
-                    "HeadCover_Improvised",
-                    "Headtorch_Black",
+                    "DarkMotoHelmet_Grey",
                     "Ushanka_Black",
-                    "WeldingMask"
+                    "CowboyHat_black"
                 ],
                 "masks": [
-                    "Balaclava3Holes_Black",
-                    "BandanaMask_BlackPattern",
-                    "BandanaMask_RedPattern",
-                    "Balaclava3Holes_Beige",
+                    "Balaclava3Holes_Green",
                     "FaceCover_Improvised"
                 ],
                 "vests": [
-                    "ChestHolster"
+                    "ChestHolster",
+                    "PoliceVest"
                 ],
                 "backpacks": [
-                    "CourierBag",
-                    "ImprovisedBag",
-                    "FurImprovisedBag",
-                    "TaloonBag_Blue"
+                    "DryBag_Green",
+                    "TaloonBag_Green",
+                    "LeatherSack_Natural"
                 ],
                 "bodywear": [
-                    "DenimJacket",
-                    "Sweater_Green",
+                    "GulagJacket_Grey",
+                    "DownJacket_Green",
                     "Hoodie_Brown",
-                    "RidersJacket_Black",
-                    "Hoodie_Black",
-                    "HikingJacket_Black",
-                    "BomberJacket_Brown",
-                    "BomberJacket_SkyBlue",
-                    "TrackSuitJacket_Black"
+                    "BushlatPoliceJacket_Blue",
+                    "Sweater_Blue",
+                    "Sweater_Gray"
                 ],
                 "belts": [
                     "CivilianBelt"
@@ -1343,51 +1614,50 @@
                 "pants": [
                     "Jeans_Blue",
                     "Jeans_Grey",
-                    "TrackSuitPants_Black",
                     "CargoPants_Beige",
-                    "CanvasPantsMidi_Blue"
+                    "CargoPants_Beige",
+                    "NavyUniformPants"
                 ],
                 "shoes": [
-                    "HikingBootsLow_Black",
+                    "AthleticShoes_Black",
                     "HikingBoots_Black",
-                    "HikingBoots_Brown",
-                    "WorkingBoots_Grey",
-                    "WorkingBoots_Brown"
+                    "AthleticShoes_Brown",
+                    "WorkingBoots_Green",
+                    "AthleticShoes_Grey"
                 ],
                 "gloves": [
-                    "HandsCover_Improvised",
-                    "SurgicalGloves_White",
-                    "WorkingGloves_Brown",
-                    "WoolGlovesFingerless_Black"
+                    "WorkingGloves_Black",
+                    "OMNOGloves_Gray",
+                    "WoolGlovesFingerless_Black",
+                    "WoolGloves_Black"
                 ],
-                "armband": [
-                    "Armband_Cannibals"
-                ],
+                "armband": [],
                 "loot": [
                     "Rag",
                     "Pajka",
                     "SodaCan_Spite",
-                    "AmmoBox_380_35rnd",
+                    "BoneKnife",
                     "HumanSteakMeat",
                     "Apple",
                     "Tomato",
+                    "CanOpener",
+                    "SmallGasCanister",
+                    "AmmoBox_357_20Rnd",
+                    "Ammo_357",
                     "AmmoBox_00buck_10rnd",
                     "AmmoBox_9x19_25rnd",
                     "Ammo_380",
                     "Ammo_12gaPellets",
                     "Ammo_9x19",
-                    "Hacksaw",
-                    "Handcuffs",
-                    "HandcuffKeys",
-                    "HuntingKnife",
-                    "BakedBeansCan",
-                    "TunaCan",
-                    "UnknownFoodCan"
+                    "AmmoBox_380_35rnd",
+                    "Ammo_45ACP",
+                    "AmmoBox_45ACP_25rnd",
+                    "DuctTape"
                 ]
             }
         },
         {
-            "name": "NWA_SW",
+            "name": "NWA_SW_T2M",
             "faction": "Bandits",
             "waypoints": [
                 "4426.410156 339.040009 9714.849609",
@@ -1400,56 +1670,67 @@
             "npcclasses": [
                 "BanditAI_Rolf",
                 "BanditAI_Denis",
-                "BanditAI_Adam"
+                "BanditAI_Adam",
+                "BanditAI_Oliver",
+                "BanditAI_Peter"
             ],
             "accuracy": 30.0,
             "grenadechance": 0.0,
             "dog": 1,
             "weaponpool": [
-                "NailedBaseballBat",
-                "Predefined_IJ",
-                "Predefined_Sawedoff",
-                "Predefined_M1911",
+                "Predefined_SKS",
                 "Predefined_RAK",
-                "Predefined_Ruger"
+                "Predefined_Sawedoff",
+                "Predefined_MP5",
+                "Predefined_UMP45",
+                "Predefined_CZ527",
+                "Predefined_MP133",
+                "Predefined_MP18",
+                "OrientalMachete"
             ],
             "npcproperties": {
                 "headgear": [
                     "DarkMotoHelmet_Grey",
                     "Bandana_Blackpattern",
                     "BeanieHat_Black",
-                    "BoonieHat_Tan",
-                    "HeadCover_Improvised",
-                    "Headtorch_Black",
+                    "Ssh68Helmet",
+                    "OKZKCap_Green",
+                    "PetushokHat_Green",
                     "Ushanka_Black",
-                    "WeldingMask"
+                    "TankerHelmet",
+                    "BudenovkaHat_Gray"
                 ],
                 "masks": [
                     "Balaclava3Holes_Black",
                     "BandanaMask_BlackPattern",
                     "BandanaMask_RedPattern",
-                    "Balaclava3Holes_Beige",
-                    "FaceCover_Improvised"
+                    "BalaclavaMask_Blackskull",
+                    "GasMask",
+                    "GP5GasMask"
                 ],
                 "vests": [
-                    "ChestHolster"
+                    "ChestHolster",
+                    "PoliceVest",
+                    "ChestRigVest_Tan",
+                    "HighCapacityVest_Olive",
+                    "HighCapacityVest_ION"
                 ],
                 "backpacks": [
-                    "CourierBag",
-                    "ImprovisedBag",
-                    "FurImprovisedBag",
-                    "TaloonBag_Blue"
+                    "TortillaBag",
+                    "AssaultBag_Green",
+                    "AliceBag_Black",
+                    "LeatherSack_Black"
                 ],
                 "bodywear": [
-                    "DenimJacket",
                     "Sweater_Green",
-                    "Hoodie_Brown",
+                    "GulagJacket_Grey",
+                    "TTsKOJacket_Camo",
                     "RidersJacket_Black",
                     "Hoodie_Black",
-                    "HikingJacket_Black",
+                    "HikingJacket_Green",
                     "BomberJacket_Brown",
-                    "BomberJacket_SkyBlue",
-                    "TrackSuitJacket_Black"
+                    "OBRJacket_Officer",
+                    "WinterMilitaryCoat_Grey"
                 ],
                 "belts": [
                     "CivilianBelt"
@@ -1457,22 +1738,24 @@
                 "pants": [
                     "Jeans_Blue",
                     "Jeans_Grey",
-                    "TrackSuitPants_Black",
                     "CargoPants_Beige",
-                    "CanvasPantsMidi_Blue"
+                    "CargoPants_Green",
+                    "CargoPants_Blue",
+                    "HunterPants_Brown"
                 ],
                 "shoes": [
-                    "HikingBootsLow_Black",
-                    "HikingBoots_Black",
+                    "MilitaryBoots_Black",
+                    "TTSKOBoots",
                     "HikingBoots_Brown",
-                    "WorkingBoots_Grey",
-                    "WorkingBoots_Brown"
+                    "ColdOperationBoots_Green",
+                    "JungleBoots_Black"
                 ],
                 "gloves": [
-                    "HandsCover_Improvised",
-                    "SurgicalGloves_White",
+                    "TacticalGloves_Black",
+                    "WoolGlovesFingerless_Black",
                     "WorkingGloves_Brown",
-                    "WoolGlovesFingerless_Black"
+                    "WoolGlovesFingerless_Green",
+                    "OMNOGloves_Gray"
                 ],
                 "armband": [
                     "Armband_Cannibals"
@@ -1496,12 +1779,25 @@
                     "HuntingKnife",
                     "BakedBeansCan",
                     "TunaCan",
-                    "UnknownFoodCan"
+                    "UnknownFoodCan",
+                    "AmmoBox_357_20Rnd",
+                    "Ammo_357",
+                    "AmmoBox_00buck_10rnd",
+                    "AmmoBox_9x19_25rnd",
+                    "Ammo_380",
+                    "Ammo_12gaPellets",
+                    "Ammo_9x19",
+                    "AmmoBox_380_35rnd",
+                    "Ammo_45ACP",
+                    "AmmoBox_45ACP_25rnd",
+                    "Ammo_762x39",
+                    "AmmoBox_762x39_20Rnd",
+                    "DuctTape"
                 ]
             }
         },
         {
-            "name": "NWA_MID",
+            "name": "NWA_MID_T2M",
             "faction": "Bandits",
             "waypoints": [
                 "4640.640137 339.000000 10303.099609",
@@ -1515,56 +1811,67 @@
             "npcclasses": [
                 "BanditAI_Rolf",
                 "BanditAI_Denis",
-                "BanditAI_Adam"
+                "BanditAI_Adam",
+                "BanditAI_Oliver",
+                "BanditAI_Peter"
             ],
             "accuracy": 30.0,
             "grenadechance": 0.0,
             "dog": 1,
             "weaponpool": [
-                "NailedBaseballBat",
-                "Predefined_IJ",
-                "Predefined_Sawedoff",
-                "Predefined_M1911",
+                "Predefined_SKS",
                 "Predefined_RAK",
-                "Predefined_Ruger"
+                "Predefined_Sawedoff",
+                "Predefined_MP5",
+                "Predefined_UMP45",
+                "Predefined_CZ527",
+                "Predefined_MP133",
+                "Predefined_MP18",
+                "OrientalMachete"
             ],
             "npcproperties": {
                 "headgear": [
                     "DarkMotoHelmet_Grey",
                     "Bandana_Blackpattern",
                     "BeanieHat_Black",
-                    "BoonieHat_Tan",
-                    "HeadCover_Improvised",
-                    "Headtorch_Black",
+                    "Ssh68Helmet",
+                    "OKZKCap_Green",
+                    "PetushokHat_Green",
                     "Ushanka_Black",
-                    "WeldingMask"
+                    "TankerHelmet",
+                    "BudenovkaHat_Gray"
                 ],
                 "masks": [
                     "Balaclava3Holes_Black",
                     "BandanaMask_BlackPattern",
                     "BandanaMask_RedPattern",
-                    "Balaclava3Holes_Beige",
-                    "FaceCover_Improvised"
+                    "BalaclavaMask_Blackskull",
+                    "GasMask",
+                    "GP5GasMask"
                 ],
                 "vests": [
-                    "ChestHolster"
+                    "ChestHolster",
+                    "PoliceVest",
+                    "ChestRigVest_Tan",
+                    "HighCapacityVest_Olive",
+                    "HighCapacityVest_ION"
                 ],
                 "backpacks": [
-                    "CourierBag",
-                    "ImprovisedBag",
-                    "FurImprovisedBag",
-                    "TaloonBag_Blue"
+                    "TortillaBag",
+                    "AssaultBag_Green",
+                    "AliceBag_Black",
+                    "LeatherSack_Black"
                 ],
                 "bodywear": [
-                    "DenimJacket",
                     "Sweater_Green",
-                    "Hoodie_Brown",
+                    "GulagJacket_Grey",
+                    "TTsKOJacket_Camo",
                     "RidersJacket_Black",
                     "Hoodie_Black",
-                    "HikingJacket_Black",
+                    "HikingJacket_Green",
                     "BomberJacket_Brown",
-                    "BomberJacket_SkyBlue",
-                    "TrackSuitJacket_Black"
+                    "OBRJacket_Officer",
+                    "WinterMilitaryCoat_Grey"
                 ],
                 "belts": [
                     "CivilianBelt"
@@ -1572,22 +1879,24 @@
                 "pants": [
                     "Jeans_Blue",
                     "Jeans_Grey",
-                    "TrackSuitPants_Black",
                     "CargoPants_Beige",
-                    "CanvasPantsMidi_Blue"
+                    "CargoPants_Green",
+                    "CargoPants_Blue",
+                    "HunterPants_Brown"
                 ],
                 "shoes": [
-                    "HikingBootsLow_Black",
-                    "HikingBoots_Black",
+                    "MilitaryBoots_Black",
+                    "TTSKOBoots",
                     "HikingBoots_Brown",
-                    "WorkingBoots_Grey",
-                    "WorkingBoots_Brown"
+                    "ColdOperationBoots_Green",
+                    "JungleBoots_Black"
                 ],
                 "gloves": [
-                    "HandsCover_Improvised",
-                    "SurgicalGloves_White",
+                    "TacticalGloves_Black",
+                    "WoolGlovesFingerless_Black",
                     "WorkingGloves_Brown",
-                    "WoolGlovesFingerless_Black"
+                    "WoolGlovesFingerless_Green",
+                    "OMNOGloves_Gray"
                 ],
                 "armband": [
                     "Armband_Cannibals"
@@ -1611,12 +1920,25 @@
                     "HuntingKnife",
                     "BakedBeansCan",
                     "TunaCan",
-                    "UnknownFoodCan"
+                    "UnknownFoodCan",
+                    "AmmoBox_357_20Rnd",
+                    "Ammo_357",
+                    "AmmoBox_00buck_10rnd",
+                    "AmmoBox_9x19_25rnd",
+                    "Ammo_380",
+                    "Ammo_12gaPellets",
+                    "Ammo_9x19",
+                    "AmmoBox_380_35rnd",
+                    "Ammo_45ACP",
+                    "AmmoBox_45ACP_25rnd",
+                    "Ammo_762x39",
+                    "AmmoBox_762x39_20Rnd",
+                    "DuctTape"
                 ]
             }
         },
         {
-            "name": "NWA_N",
+            "name": "NWA_N_T2M",
             "faction": "Bandits",
             "waypoints": [
                 "4098.850098 370.268005 11629.000000",
@@ -1630,27 +1952,168 @@
             "npcclasses": [
                 "BanditAI_Rolf",
                 "BanditAI_Denis",
-                "BanditAI_Adam"
+                "BanditAI_Adam",
+                "BanditAI_Oliver",
+                "BanditAI_Peter"
             ],
             "accuracy": 30.0,
             "grenadechance": 0.0,
             "dog": 1,
             "weaponpool": [
-                "NailedBaseballBat",
-                "Predefined_IJ",
-                "Predefined_Sawedoff",
-                "Predefined_M1911",
+                "Predefined_SKS",
                 "Predefined_RAK",
-                "Predefined_Ruger"
+                "Predefined_Sawedoff",
+                "Predefined_MP5",
+                "Predefined_UMP45",
+                "Predefined_CZ527",
+                "Predefined_MP133",
+                "Predefined_MP18",
+                "OrientalMachete"
             ],
             "npcproperties": {
                 "headgear": [
                     "DarkMotoHelmet_Grey",
                     "Bandana_Blackpattern",
                     "BeanieHat_Black",
-                    "BoonieHat_Tan",
-                    "HeadCover_Improvised",
-                    "Headtorch_Black",
+                    "Ssh68Helmet",
+                    "OKZKCap_Green",
+                    "PetushokHat_Green",
+                    "Ushanka_Black",
+                    "TankerHelmet",
+                    "BudenovkaHat_Gray"
+                ],
+                "masks": [
+                    "Balaclava3Holes_Black",
+                    "BandanaMask_BlackPattern",
+                    "BandanaMask_RedPattern",
+                    "BalaclavaMask_Blackskull",
+                    "GasMask",
+                    "GP5GasMask"
+                ],
+                "vests": [
+                    "ChestHolster",
+                    "PoliceVest",
+                    "ChestRigVest_Tan",
+                    "HighCapacityVest_Olive",
+                    "HighCapacityVest_ION"
+                ],
+                "backpacks": [
+                    "TortillaBag",
+                    "AssaultBag_Green",
+                    "AliceBag_Black",
+                    "LeatherSack_Black"
+                ],
+                "bodywear": [
+                    "Sweater_Green",
+                    "GulagJacket_Grey",
+                    "TTsKOJacket_Camo",
+                    "RidersJacket_Black",
+                    "Hoodie_Black",
+                    "HikingJacket_Green",
+                    "BomberJacket_Brown",
+                    "OBRJacket_Officer",
+                    "WinterMilitaryCoat_Grey"
+                ],
+                "belts": [
+                    "CivilianBelt"
+                ],
+                "pants": [
+                    "Jeans_Blue",
+                    "Jeans_Grey",
+                    "CargoPants_Beige",
+                    "CargoPants_Green",
+                    "CargoPants_Blue",
+                    "HunterPants_Brown"
+                ],
+                "shoes": [
+                    "MilitaryBoots_Black",
+                    "TTSKOBoots",
+                    "HikingBoots_Brown",
+                    "ColdOperationBoots_Green",
+                    "JungleBoots_Black"
+                ],
+                "gloves": [
+                    "TacticalGloves_Black",
+                    "WoolGlovesFingerless_Black",
+                    "WorkingGloves_Brown",
+                    "WoolGlovesFingerless_Green",
+                    "OMNOGloves_Gray"
+                ],
+                "armband": [
+                    "Armband_Cannibals"
+                ],
+                "loot": [
+                    "Rag",
+                    "Pajka",
+                    "SodaCan_Spite",
+                    "AmmoBox_380_35rnd",
+                    "HumanSteakMeat",
+                    "Apple",
+                    "Tomato",
+                    "AmmoBox_00buck_10rnd",
+                    "AmmoBox_9x19_25rnd",
+                    "Ammo_380",
+                    "Ammo_12gaPellets",
+                    "Ammo_9x19",
+                    "Hacksaw",
+                    "Handcuffs",
+                    "HandcuffKeys",
+                    "HuntingKnife",
+                    "BakedBeansCan",
+                    "TunaCan",
+                    "UnknownFoodCan",
+                    "AmmoBox_357_20Rnd",
+                    "Ammo_357",
+                    "AmmoBox_00buck_10rnd",
+                    "AmmoBox_9x19_25rnd",
+                    "Ammo_380",
+                    "Ammo_12gaPellets",
+                    "Ammo_9x19",
+                    "AmmoBox_380_35rnd",
+                    "Ammo_45ACP",
+                    "AmmoBox_45ACP_25rnd",
+                    "Ammo_762x39",
+                    "AmmoBox_762x39_20Rnd",
+                    "DuctTape"
+                ]
+            }
+        },
+        {
+            "name": "NWA_PATROL_T3",
+            "faction": "Bandits",
+            "waypoints": [
+                "3842.520020 327.834991 10859.599609",
+                "4191.541016 339.036163 11037.009766",
+                "4473.500000 339.000000 10549.599609",
+                "4708.950195 339.000000 10125.599609",
+                "4917.000000 339.018005 9677.940430",
+                "4701.609863 339.000000 9559.360352",
+                "4263.819824 339.209991 10300.200195",
+                "4011.469971 339.000000 10745.500000"
+            ],
+            "npcclasses": [
+                "BanditAI_Linda",
+                "BanditAI_Hassan"
+            ],
+            "accuracy": 30.0,
+            "grenadechance": 0.0,
+            "dog": 1,
+            "weaponpool": [
+                "Predefined_LeeEnfield",
+                "Predefined_MP133",
+                "Predefined_Bizon",
+                "Predefined_Repeater",
+                "Predefined_RAK",
+                "Scimitar"
+            ],
+            "npcproperties": {
+                "headgear": [
+                    "DarkMotoHelmet_Grey",
+                    "Bandana_Blackpattern",
+                    "BeanieHat_Black",
+                    "Ssh68Helmet",
+                    "SnowstormUshanka_Olive",
+                    "TankerHelmet",
                     "Ushanka_Black",
                     "WeldingMask"
                 ],
@@ -1662,46 +2125,45 @@
                     "FaceCover_Improvised"
                 ],
                 "vests": [
-                    "ChestHolster"
+                    "ChestRigVest_Tan",
+                    "UKAssVest_Black"
                 ],
                 "backpacks": [
-                    "CourierBag",
-                    "ImprovisedBag",
-                    "FurImprovisedBag",
-                    "TaloonBag_Blue"
+                    "AliceBag_Black",
+                    "DryBag_Black",
+                    "HuntingBag"
                 ],
                 "bodywear": [
-                    "DenimJacket",
+                    "BushlatPoliceJacket_Blue",
                     "Sweater_Green",
-                    "Hoodie_Brown",
-                    "RidersJacket_Black",
+                    "M65Jacket_Black",
+                    "PilotJacket_Brown",
                     "Hoodie_Black",
-                    "HikingJacket_Black",
+                    "PilotJacket_Yellow",
                     "BomberJacket_Brown",
-                    "BomberJacket_SkyBlue",
-                    "TrackSuitJacket_Black"
+                    "WinterMilitaryCoat_Grey",
+                    "WinterMilitaryCoat_DarkGrey"
                 ],
                 "belts": [
                     "CivilianBelt"
                 ],
                 "pants": [
-                    "Jeans_Blue",
+                    "CargoPants_Black",
                     "Jeans_Grey",
-                    "TrackSuitPants_Black",
-                    "CargoPants_Beige",
-                    "CanvasPantsMidi_Blue"
+                    "GorkaPants_Flat",
+                    "PolicePantsOrel"
                 ],
                 "shoes": [
                     "HikingBootsLow_Black",
                     "HikingBoots_Black",
                     "HikingBoots_Brown",
-                    "WorkingBoots_Grey",
-                    "WorkingBoots_Brown"
+                    "ColdOperationBoots_Green",
+                    "CombatBoots_Black"
                 ],
                 "gloves": [
-                    "HandsCover_Improvised",
-                    "SurgicalGloves_White",
-                    "WorkingGloves_Brown",
+                    "WoolGlovesFingerless_Green",
+                    "PaddedGloves_Brown",
+                    "OMNOGloves_Gray",
                     "WoolGlovesFingerless_Black"
                 ],
                 "armband": [
@@ -1726,147 +2188,17 @@
                     "HuntingKnife",
                     "BakedBeansCan",
                     "TunaCan",
-                    "UnknownFoodCan"
-                ]
-            }
-        },
-        {
-            "name": "NWA_PATROL",
-            "faction": "Bandits",
-            "waypoints": [
-                "3842.520020 327.834991 10859.599609",
-                "4191.541016 339.036163 11037.009766",
-                "4473.500000 339.000000 10549.599609",
-                "4708.950195 339.000000 10125.599609",
-                "4917.000000 339.018005 9677.940430",
-                "4701.609863 339.000000 9559.360352",
-                "4263.819824 339.209991 10300.200195",
-                "4011.469971 339.000000 10745.500000"
-            ],
-            "npcclasses": [
-                "BanditAI_Rolf",
-                "BanditAI_Denis",
-                "BanditAI_Adam"
-            ],
-            "accuracy": 30.0,
-            "grenadechance": 0.0,
-            "dog": 1,
-            "weaponpool": [
-                "Predefined_SKS",
-                "Predefined_IJ",
-                "Predefined_Sawedoff",
-                "Predefined_AKS74U",
-                "Predefined_RAK",
-                "Predefined_MP133",
-                "SawedoffMosin9130"
-            ],
-            "npcproperties": {
-                "headgear": [
-                    "DarkMotoHelmet_Grey",
-                    "Ssh68Helmet",
-                    "BeanieHat_Black",
-                    "TankerHelmet",
-                    "HeadCover_Improvised",
-                    "Headtorch_Black",
-                    "ZSh3PilotHelmet",
-                    "WeldingMask"
-                ],
-                "masks": [
-                    "Balaclava3Holes_Black",
-                    "BandanaMask_BlackPattern",
-                    "BandanaMask_RedPattern",
-                    "Balaclava3Holes_Beige",
-                    "FaceCover_Improvised"
-                ],
-                "vests": [
-                    "HuntingVest",
-                    "PoliceVest",
-                    "PressVest_Blue",
-                    "SmershVest"
-                ],
-                "backpacks": [
-                    "HuntingBag",
-                    "LeatherSack_Black",
-                    "CoyoteBag_Green",
-                    "HuntingBag_Hannah"
-                ],
-                "bodywear": [
-                    "TTsKOJacket_Camo",
-                    "Sweater_Green",
-                    "TelnyashkaShirt",
-                    "RidersJacket_Black",
-                    "Hoodie_Black",
-                    "HikingJacket_Black",
-                    "BomberJacket_Brown",
-                    "M65Jacket_Olive",
-                    "TacticalShirt_Olive"
-                ],
-                "belts": [
-                    "CivilianBelt",
-                    "MilitaryBelt"
-                ],
-                "pants": [
-                    "Jeans_Blue",
-                    "Jeans_Grey",
-                    "TTSKOPants",
-                    "CargoPants_Beige",
-                    "GorkaPants_Autumn"
-                ],
-                "shoes": [
-                    "CombatBoots_Black",
-                    "JungleBoots_Black",
-                    "HikingBoots_Brown",
-                    "MilitaryBoots_Black",
-                    "MilitaryBoots_Brown"
-                ],
-                "gloves": [
-                    "TacticalGloves_Black",
-                    "SurgicalGloves_White",
-                    "TacticalGloves_Green",
-                    "WoolGlovesFingerless_Black"
-                ],
-                "armband": [
-                    "Armband_Cannibals"
-                ],
-                "loot": [
-                    "RGD5Grenade",
-                    "FlashGrenade",
-                    "RDG2SmokeGrenade_Black",
-                    "AmmoBox_380_35rnd",
-                    "HumanSteakMeat",
-                    "Lunchmeat",
-                    "PorkCan",
-                    "AmmoBox_00buck_10rnd",
-                    "AmmoBox_9x19_25rnd",
-                    "Ammo_380",
-                    "Ammo_12gaPellets",
-                    "Ammo_9x19",
-                    "Hacksaw",
-                    "Canteen",
-                    "WaterBottle",
-                    "CombatKnife",
-                    "BakedBeansCan",
-                    "TunaCan",
                     "UnknownFoodCan",
-                    "AmmoBox_545x39_20Rnd",
-                    "AmmoBox_545x39Tracer_20Rnd",
-                    "AmmoBox_762x39_20Rnd",
-                    "AmmoBox_762x54_20Rnd",
-                    "AmmoBox_762x54Tracer_20Rnd",
-                    "AmmoBox_12gaSlug_10Rnd",
-                    "Ammo_12gaSlug",
-                    "Ammo_545x39",
-                    "Ammo_545x39Tracer",
                     "Ammo_762x54",
-                    "Ammo_762x54Tracer",
-                    "BandageDressing",
-                    "SalineBagIV",
-                    "WoodAxe"
+                    "AmmoBox_762x54_20Rnd",
+                    "AmmoBox_357_20Rnd",
+                    "Ammo_357",
+                    "DuctTape"
                 ]
             }
         },
         {
-            "name": "GROZOVY",
+            "name": "GROZOVY_T2",
             "faction": "Bandits",
             "waypoints": [
                 "3743.979980 362.700989 14778.099609",
@@ -1876,130 +2208,105 @@
                 "3902.179932 414.817993 15254.599609"
             ],
             "npcclasses": [
-                "BanditAI_Linda",
                 "BanditAI_Rolf",
                 "BanditAI_Denis",
-                "BanditAI_Adam"
+                "BanditAI_Adam",
+                "BanditAI_Hassan",
+                "BanditAI_Kaito",
+                "BanditAI_Lewis"
             ],
             "accuracy": 30.0,
             "grenadechance": 0.0,
             "dog": 1,
             "weaponpool": [
-                "Predefined_SKS",
-                "Predefined_IJ",
-                "Predefined_Sawedoff",
-                "Predefined_AKS74U",
-                "Predefined_RAK",
+                "Machete",
+                "Predefined_Repeater",
                 "Predefined_MP133",
-                "SawedoffMosin9130"
+                "Predefined_M1911",
+                "Predefined_MP18",
+                "Predefined_Engraved1911",
+                "Predefined_Repeater",
+                "Predefined_CZ75"
             ],
             "npcproperties": {
                 "headgear": [
-                    "DarkMotoHelmet_Grey",
-                    "Ssh68Helmet",
+                    "BaseballCap_Camo",
                     "BeanieHat_Black",
-                    "TankerHelmet",
-                    "HeadCover_Improvised",
-                    "Headtorch_Black",
-                    "ZSh3PilotHelmet",
-                    "WeldingMask"
+                    "DarkMotoHelmet_Grey",
+                    "Ushanka_Black",
+                    "CowboyHat_black"
                 ],
                 "masks": [
-                    "Balaclava3Holes_Black",
-                    "BandanaMask_BlackPattern",
-                    "BandanaMask_RedPattern",
-                    "Balaclava3Holes_Beige",
+                    "Balaclava3Holes_Green",
                     "FaceCover_Improvised"
                 ],
                 "vests": [
-                    "HuntingVest",
-                    "PoliceVest",
-                    "PressVest_Blue",
-                    "SmershVest"
+                    "ChestHolster",
+                    "PoliceVest"
                 ],
                 "backpacks": [
-                    "HuntingBag",
-                    "LeatherSack_Black",
-                    "CoyoteBag_Green",
-                    "HuntingBag_Hannah"
+                    "DryBag_Green",
+                    "TaloonBag_Green",
+                    "LeatherSack_Natural"
                 ],
                 "bodywear": [
-                    "TTsKOJacket_Camo",
-                    "Sweater_Green",
-                    "TelnyashkaShirt",
-                    "RidersJacket_Black",
-                    "Hoodie_Black",
-                    "HikingJacket_Black",
-                    "BomberJacket_Brown",
-                    "M65Jacket_Olive",
-                    "TacticalShirt_Olive"
+                    "GulagJacket_Grey",
+                    "DownJacket_Green",
+                    "Hoodie_Brown",
+                    "BushlatPoliceJacket_Blue",
+                    "Sweater_Blue",
+                    "Sweater_Gray"
                 ],
                 "belts": [
-                    "CivilianBelt",
-                    "MilitaryBelt"
+                    "CivilianBelt"
                 ],
                 "pants": [
                     "Jeans_Blue",
                     "Jeans_Grey",
-                    "TTSKOPants",
                     "CargoPants_Beige",
-                    "GorkaPants_Autumn"
+                    "CargoPants_Beige",
+                    "NavyUniformPants"
                 ],
                 "shoes": [
-                    "CombatBoots_Black",
-                    "JungleBoots_Black",
-                    "HikingBoots_Brown",
-                    "MilitaryBoots_Black",
-                    "MilitaryBoots_Brown"
+                    "AthleticShoes_Black",
+                    "HikingBoots_Black",
+                    "AthleticShoes_Brown",
+                    "WorkingBoots_Green",
+                    "AthleticShoes_Grey"
                 ],
                 "gloves": [
-                    "TacticalGloves_Black",
-                    "SurgicalGloves_White",
-                    "TacticalGloves_Green",
-                    "WoolGlovesFingerless_Black"
+                    "WorkingGloves_Black",
+                    "OMNOGloves_Gray",
+                    "WoolGlovesFingerless_Black",
+                    "WoolGloves_Black"
                 ],
-                "armband": [
-                    "Armband_Cannibals"
-                ],
+                "armband": [],
                 "loot": [
-                    "RGD5Grenade",
-                    "FlashGrenade",
-                    "RDG2SmokeGrenade_Black",
-                    "AmmoBox_380_35rnd",
+                    "Rag",
+                    "Pajka",
+                    "SodaCan_Spite",
+                    "BoneKnife",
                     "HumanSteakMeat",
-                    "Lunchmeat",
-                    "PorkCan",
+                    "Apple",
+                    "Tomato",
+                    "CanOpener",
+                    "SmallGasCanister",
+                    "AmmoBox_357_20Rnd",
+                    "Ammo_357",
                     "AmmoBox_00buck_10rnd",
                     "AmmoBox_9x19_25rnd",
                     "Ammo_380",
                     "Ammo_12gaPellets",
                     "Ammo_9x19",
-                    "Hacksaw",
-                    "Canteen",
-                    "WaterBottle",
-                    "CombatKnife",
-                    "BakedBeansCan",
-                    "TunaCan",
-                    "UnknownFoodCan",
-                    "AmmoBox_545x39_20Rnd",
-                    "AmmoBox_545x39Tracer_20Rnd",
-                    "AmmoBox_762x39_20Rnd",
-                    "AmmoBox_762x54_20Rnd",
-                    "AmmoBox_762x54Tracer_20Rnd",
-                    "AmmoBox_12gaSlug_10Rnd",
-                    "Ammo_12gaSlug",
-                    "Ammo_545x39",
-                    "Ammo_545x39Tracer",
-                    "Ammo_762x54",
-                    "Ammo_762x54Tracer",
-                    "BandageDressing",
-                    "SalineBagIV",
-                    "WoodAxe"
+                    "AmmoBox_380_35rnd",
+                    "Ammo_45ACP",
+                    "AmmoBox_45ACP_25rnd",
+                    "DuctTape"
                 ]
             }
         },
         {
-            "name": "GNOMOVZAMOK",
+            "name": "GNOMOVZAMOK_K",
             "faction": "Bandits",
             "waypoints": [
                 "423.740234 403.528992 9130.730469",
@@ -2049,12 +2356,13 @@
                 "loot": [
                     "Whetstone",
                     "LeatherSewingKit",
-                    "SewingKit"
+                    "SewingKit",
+                    "DuctTape"
                 ]
             }
         },
         {
-            "name": "DEVILS_CASTLE",
+            "name": "DEVILS_CASTLE_K",
             "faction": "Bandits",
             "waypoints": [
                 "6880.759766 398.285004 11492.500000",
@@ -2105,12 +2413,13 @@
                 "loot": [
                     "Whetstone",
                     "LeatherSewingKit",
-                    "SewingKit"
+                    "SewingKit",
+                    "DuctTape"
                 ]
             }
         },
         {
-            "name": "KRONA",
+            "name": "KRONA_K",
             "faction": "Bandits",
             "waypoints": [
                 "1483.869995 297.473999 9208.929688",
@@ -2162,12 +2471,13 @@
                 "loot": [
                     "Whetstone",
                     "LeatherSewingKit",
-                    "SewingKit"
+                    "SewingKit",
+                    "DuctTape"
                 ]
             }
         },
         {
-            "name": "TRI_KRESTA_MILITARY",
+            "name": "TRI_KRESTA_MILITARY_UN",
             "faction": "Guards",
             "waypoints": [
                 "309.114014 295.220001 9321.190430",
@@ -2179,7 +2489,10 @@
                 "BanditAI_Linda",
                 "BanditAI_Rolf",
                 "BanditAI_Denis",
-                "BanditAI_Adam"
+                "BanditAI_Adam",
+                "BanditAI_Hassan",
+                "BanditAI_Indar",
+                "BanditAI_Jose"
             ],
             "accuracy": 30.0,
             "grenadechance": 0.0,
@@ -2187,7 +2500,11 @@
             "weaponpool": [
                 "Predefined_AK101_Green",
                 "Predefined_M16A2",
-                "Predefined_MP5"
+                "Predefined_MP5",
+                "Predefined_FAMAS",
+                "Predefined_Aug",
+                "Predefined_UMP45",
+                "Predefined_AugShort"
             ],
             "npcproperties": {
                 "headgear": [
@@ -2197,7 +2514,8 @@
                 "masks": [],
                 "vests": [
                     "PressVest_Blue",
-                    "HighCapacityVest_Olive"
+                    "HighCapacityVest_Olive",
+                    "PlateCarrierVest"
                 ],
                 "backpacks": [
                     "AliceBag_Camo"
@@ -2206,13 +2524,16 @@
                     "USMCJacket_Woodland",
                     "TacticalShirt_Olive",
                     "M65Jacket_Olive",
-                    "BDUJacket"
+                    "BDUJacket",
+                    "TacticalShirt_Tan"
                 ],
                 "belts": [
                     "MilitaryBelt"
                 ],
                 "pants": [
-                    "BDUPants"
+                    "BDUPants",
+                    "CargoPants_Green",
+                    "CargoPants_Beige"
                 ],
                 "shoes": [
                     "MilitaryBoots_Black"
@@ -2235,12 +2556,13 @@
                     "Canteen",
                     "Ammo_FlareBlue",
                     "Roadflare",
-                    "Flaregun"
+                    "Flaregun",
+                    "DuctTape"
                 ]
             }
         },
         {
-            "name": "TISY_SQUAD 1",
+            "name": "TISY_SQUAD 1_MR",
             "faction": "Bandits",
             "waypoints": [
                 "613.083008 501.790009 13644.000000",
@@ -2249,10 +2571,11 @@
                 "1218.672729 462.798584 13991.785156"
             ],
             "npcclasses": [
-                "BanditAI_Keiko",
+                "BanditAI_Quinn",
                 "BanditAI_Rolf",
                 "BanditAI_Denis",
-                "BanditAI_Adam"
+                "BanditAI_Adam",
+                "BanditAI_Seth"
             ],
             "accuracy": 30.0,
             "grenadechance": 0.0,
@@ -2260,13 +2583,16 @@
             "weaponpool": [
                 "Predefined_AKS74U",
                 "Predefined_AK74",
-                "Predefined_Saiga"
+                "Predefined_Saiga",
+                "Predefined_SV98",
+                "Predefined_AK101_Green"
             ],
             "npcproperties": {
                 "headgear": [
                     "GorkaHelmet",
                     "Ssh68Helmet",
-                    "PilotkaCap"
+                    "PilotkaCap",
+                    "T56TankerHelmet_Olive"
                 ],
                 "masks": [
                     "GP5GasMask",
@@ -2276,16 +2602,23 @@
                 "vests": [
                     "SmershVest",
                     "HighCapacityVest_Olive",
-                    "UKAssVest_Camo"
+                    "UKAssVest_Camo",
+                    "PlateCarrierVest_Green",
+                    "PlateCarrierVest_Camo"
                 ],
                 "backpacks": [
-                    "AliceBag_Camo"
+                    "AliceBag_Camo",
+                    "Attack2Bag_Ttsko",
+                    "AssaultBag_Ttsko",
+                    "ArmyPouch_Camo"
                 ],
                 "bodywear": [
                     "GorkaEJacket_PautRev",
                     "GorkaEJacket_Autumn",
                     "TTsKOJacket_Camo",
-                    "TelnyashkaShirt"
+                    "TelnyashkaShirt",
+                    "OBRJacket_Officer",
+                    "MilitarySweater_Chernarus"
                 ],
                 "belts": [
                     "MilitaryBelt"
@@ -2293,18 +2626,21 @@
                 "pants": [
                     "GorkaPants_Autumn",
                     "GorkaPants_PautRev",
-                    "TTSKOPants"
+                    "TTSKOPants",
+                    "OBRPants_Beige"
                 ],
                 "shoes": [
-                    "MilitaryBoots_Brown"
+                    "MilitaryBoots_Brown",
+                    "ColdOperationBoots_Green"
                 ],
                 "gloves": [
                     "WoolGloves_Green",
                     "WoolGlovesFingerless_Black",
-                    "WoolGlovesFingerless_Greem"
+                    "WoolGlovesFingerless_Greem",
+                    "OMNOGloves_Gray"
                 ],
                 "armband": [
-                    "Armband_LivoniaArmy"
+                    "Armband_Chernarus"
                 ],
                 "loot": [
                     "AmmoBox_545x39_20Rnd",
@@ -2320,12 +2656,17 @@
                     "Canteen",
                     "Ammo_FlareGreen",
                     "Roadflare",
-                    "Flaregun"
+                    "Flaregun",
+                    "Ammo_762x54",
+                    "AmmoBox_762x54_20Rnd",
+                    "Ammo_556x45",
+                    "AmmoBox_556x45_20Rnd",
+                    "DuctTape"
                 ]
             }
         },
         {
-            "name": "TISY_SQUAD 2",
+            "name": "TISY_SQUAD 2_MR",
             "faction": "Bandits",
             "waypoints": [
                 "1805.859985 436.090637 13811.900391",
@@ -2336,10 +2677,11 @@
                 "1562.199951 452.723999 14102.000000"
             ],
             "npcclasses": [
-                "BanditAI_Keiko",
+                "BanditAI_Quinn",
                 "BanditAI_Rolf",
                 "BanditAI_Denis",
-                "BanditAI_Adam"
+                "BanditAI_Adam",
+                "BanditAI_Seth"
             ],
             "accuracy": 30.0,
             "grenadechance": 0.0,
@@ -2347,13 +2689,16 @@
             "weaponpool": [
                 "Predefined_AKS74U",
                 "Predefined_AK74",
-                "Predefined_Saiga"
+                "Predefined_Saiga",
+                "Predefined_SV98",
+                "Predefined_AK101_Green"
             ],
             "npcproperties": {
                 "headgear": [
                     "GorkaHelmet",
                     "Ssh68Helmet",
-                    "PilotkaCap"
+                    "PilotkaCap",
+                    "T56TankerHelmet_Olive"
                 ],
                 "masks": [
                     "GP5GasMask",
@@ -2363,16 +2708,23 @@
                 "vests": [
                     "SmershVest",
                     "HighCapacityVest_Olive",
-                    "UKAssVest_Camo"
+                    "UKAssVest_Camo",
+                    "PlateCarrierVest_Green",
+                    "PlateCarrierVest_Camo"
                 ],
                 "backpacks": [
-                    "AliceBag_Camo"
+                    "AliceBag_Camo",
+                    "Attack2Bag_Ttsko",
+                    "AssaultBag_Ttsko",
+                    "ArmyPouch_Camo"
                 ],
                 "bodywear": [
                     "GorkaEJacket_PautRev",
                     "GorkaEJacket_Autumn",
                     "TTsKOJacket_Camo",
-                    "TelnyashkaShirt"
+                    "TelnyashkaShirt",
+                    "OBRJacket_Officer",
+                    "MilitarySweater_Chernarus"
                 ],
                 "belts": [
                     "MilitaryBelt"
@@ -2380,18 +2732,21 @@
                 "pants": [
                     "GorkaPants_Autumn",
                     "GorkaPants_PautRev",
-                    "TTSKOPants"
+                    "TTSKOPants",
+                    "OBRPants_Beige"
                 ],
                 "shoes": [
-                    "MilitaryBoots_Brown"
+                    "MilitaryBoots_Brown",
+                    "ColdOperationBoots_Green"
                 ],
                 "gloves": [
                     "WoolGloves_Green",
                     "WoolGlovesFingerless_Black",
-                    "WoolGlovesFingerless_Greem"
+                    "WoolGlovesFingerless_Greem",
+                    "OMNOGloves_Gray"
                 ],
                 "armband": [
-                    "Armband_LivoniaArmy"
+                    "Armband_Chernarus"
                 ],
                 "loot": [
                     "AmmoBox_545x39_20Rnd",
@@ -2407,12 +2762,17 @@
                     "Canteen",
                     "Ammo_FlareGreen",
                     "Roadflare",
-                    "Flaregun"
+                    "Flaregun",
+                    "Ammo_762x54",
+                    "AmmoBox_762x54_20Rnd",
+                    "Ammo_556x45",
+                    "AmmoBox_556x45_20Rnd",
+                    "DuctTape"
                 ]
             }
         },
         {
-            "name": "TROITSKOE_MILITARY",
+            "name": "TROITSKOE_MILITARY_MR",
             "faction": "Bandits",
             "waypoints": [
                 "7784.350098 360.433014 14830.500000",
@@ -2423,10 +2783,11 @@
                 "7918.859863 344.657013 14742.200195"
             ],
             "npcclasses": [
-                "BanditAI_Keiko",
+                "BanditAI_Quinn",
                 "BanditAI_Rolf",
                 "BanditAI_Denis",
-                "BanditAI_Adam"
+                "BanditAI_Adam",
+                "BanditAI_Seth"
             ],
             "accuracy": 30.0,
             "grenadechance": 0.0,
@@ -2434,13 +2795,16 @@
             "weaponpool": [
                 "Predefined_AKS74U",
                 "Predefined_AK74",
-                "Predefined_Saiga"
+                "Predefined_Saiga",
+                "Predefined_SV98",
+                "Predefined_AK101_Green"
             ],
             "npcproperties": {
                 "headgear": [
                     "GorkaHelmet",
                     "Ssh68Helmet",
-                    "PilotkaCap"
+                    "PilotkaCap",
+                    "T56TankerHelmet_Olive"
                 ],
                 "masks": [
                     "GP5GasMask",
@@ -2450,16 +2814,23 @@
                 "vests": [
                     "SmershVest",
                     "HighCapacityVest_Olive",
-                    "UKAssVest_Camo"
+                    "UKAssVest_Camo",
+                    "PlateCarrierVest_Green",
+                    "PlateCarrierVest_Camo"
                 ],
                 "backpacks": [
-                    "AliceBag_Camo"
+                    "AliceBag_Camo",
+                    "Attack2Bag_Ttsko",
+                    "AssaultBag_Ttsko",
+                    "ArmyPouch_Camo"
                 ],
                 "bodywear": [
                     "GorkaEJacket_PautRev",
                     "GorkaEJacket_Autumn",
                     "TTsKOJacket_Camo",
-                    "TelnyashkaShirt"
+                    "TelnyashkaShirt",
+                    "OBRJacket_Officer",
+                    "MilitarySweater_Chernarus"
                 ],
                 "belts": [
                     "MilitaryBelt"
@@ -2467,18 +2838,21 @@
                 "pants": [
                     "GorkaPants_Autumn",
                     "GorkaPants_PautRev",
-                    "TTSKOPants"
+                    "TTSKOPants",
+                    "OBRPants_Beige"
                 ],
                 "shoes": [
-                    "MilitaryBoots_Brown"
+                    "MilitaryBoots_Brown",
+                    "ColdOperationBoots_Green"
                 ],
                 "gloves": [
                     "WoolGloves_Green",
                     "WoolGlovesFingerless_Black",
-                    "WoolGlovesFingerless_Greem"
+                    "WoolGlovesFingerless_Greem",
+                    "OMNOGloves_Gray"
                 ],
                 "armband": [
-                    "Armband_LivoniaArmy"
+                    "Armband_Chernarus"
                 ],
                 "loot": [
                     "AmmoBox_545x39_20Rnd",
@@ -2494,33 +2868,664 @@
                     "Canteen",
                     "Ammo_FlareGreen",
                     "Roadflare",
-                    "Flaregun"
+                    "Flaregun",
+                    "Ammo_762x54",
+                    "AmmoBox_762x54_20Rnd",
+                    "Ammo_556x45",
+                    "AmmoBox_556x45_20Rnd",
+                    "DuctTape"
+                ]
+            }
+        },
+        {
+            "name": "SKVSCh_Arena_T4",
+            "faction": "Bandits",
+            "waypoints": [
+                "456.612000, 421.894989, 11032.000000",
+				"496.678009, 421.739990, 11051.400391",
+				"549.031006, 421.638000, 11101.200195",
+				"583.752991, 421.131989, 11146.099609",
+				"621.146973, 415.660004, 11233.900391"
+            ],
+            "npcclasses": [
+                "BanditAI_Linda",
+                "BanditAI_Hassan",
+                "BanditAI_Indar",
+                "BanditAI_Jose",
+                "BanditAI_Lewis",
+                "BanditAI_Boris",
+                "BanditAI_Seth"
+            ],
+            "accuracy": 30.0,
+            "grenadechance": 0.0,
+            "dog": 1,
+            "weaponpool": [
+                "Predefined_SSG82",
+                "Predefined_CZ550",
+                "Predefined_Bizon",
+                "Predefined_AKS74U",
+                "Predefined_RAK",
+                "Predefined_AK74",
+                "Predefined_Vikhr"
+            ],
+            "npcproperties": {
+                "headgear": [
+                    "DarkMotoHelmet_Grey",
+                    "Bandana_Blackpattern",
+                    "BeanieHat_Black",
+                    "Ssh68Helmet",
+                    "SnowstormUshanka_Olive",
+                    "TankerHelmet",
+                    "Ssh68Helmet",
+                    "GorkaHelmet",
+                    "BallisticHelmet_Black"
+                ],
+                "masks": [
+                    "Balaclava3Holes_Black",
+                    "BandanaMask_BlackPattern",
+                    "BandanaMask_RedPattern",
+                    "Balaclava3Holes_Beige",
+                    "AirborneMask"
+                ],
+                "vests": [
+                    "ChestRigVest_Tan",
+                    "UKAssVest_Black",
+                    "PressVest_Blue",
+                    "PlateCarrierVest_Black"
+                ],
+                "backpacks": [
+                    "AliceBag_Black",
+                    "DryBag_Black",
+                    "HuntingBag"
+                ],
+                "bodywear": [
+                    "DownJacket_Green",
+                    "Sweater_Green",
+                    "M65Jacket_Black",
+                    "PilotJacket_Brown",
+                    "Hoodie_Black",
+                    "M65Jacket_Olive",
+                    "BomberJacket_Brown",
+                    "WinterMilitaryCoat_Grey",
+                    "WinterMilitaryCoat_DarkGrey",
+                    "GulagJacket_Grey",
+                    "MilitarySweater_Chernarus"
+                ],
+                "belts": [
+                    "CivilianBelt"
+                ],
+                "pants": [
+                    "CargoPants_Black",
+                    "Jeans_Grey",
+                    "GorkaPants_Flat",
+                    "PolicePantsOrel",
+                    "OBRPants_Beige"
+                ],
+                "shoes": [
+                    "HikingBootsLow_Black",
+                    "HikingBoots_Black",
+                    "HikingBoots_Brown",
+                    "ColdOperationBoots_Green",
+                    "CombatBoots_Black"
+                ],
+                "gloves": [
+                    "WoolGlovesFingerless_Green",
+                    "PaddedGloves_Brown",
+                    "OMNOGloves_Gray",
+                    "WoolGlovesFingerless_Black"
+                ],
+                "armband": [
+                    "Armband_Cannibals"
+                ],
+                "loot": [
+                    "Rag",
+                    "Pajka",
+                    "SodaCan_Spite",
+                    "AmmoBox_380_35rnd",
+                    "HumanSteakMeat",
+                    "Apple",
+                    "Tomato",
+                    "AmmoBox_00buck_10rnd",
+                    "AmmoBox_9x19_25rnd",
+                    "Ammo_380",
+                    "Ammo_12gaPellets",
+                    "Ammo_9x19",
+                    "Hacksaw",
+                    "Handcuffs",
+                    "HandcuffKeys",
+                    "HuntingKnife",
+                    "BakedBeansCan",
+                    "TunaCan",
+                    "UnknownFoodCan",
+                    "Ammo_762x54",
+                    "AmmoBox_762x54_20Rnd",
+                    "AmmoBox_357_20Rnd",
+                    "Ammo_357",
+                    "Ammo_762x54",
+                    "AmmoBox_762x54_20Rnd",
+                    "Ammo_556x45",
+                    "AmmoBox_556x45_20Rnd",
+                    "Ammo_9x39",
+                    "AmmoBox_9x39_20Rnd",
+                    "Ammo_545x39",
+                    "AmmoBox_545x39_20Rnd",
+                    "DuctTape"
+                ]
+            }
+        },
+        {
+            "name": "Spetsnaz_Patrol",
+            "faction": "Bandits",
+            "waypoints": [
+                "176.772003, 386.540985, 12529.599609",
+				"753.049011, 336.692993, 12215.000000",
+				"1338.479980, 289.701996, 12030.099609",
+				"1906.859985, 284.682007, 12749.700195",
+				"2412.040039, 285.501007, 13502.799805",
+				"2364.449951, 367.549011, 14136.599609",
+				"1425.270020, 432.641998, 15012.099609"
+            ],
+            "npcclasses": [
+                "BanditAI_Linda",
+                "BanditAI_Hassan",
+                "BanditAI_Indar",
+                "BanditAI_Jose"
+            ],
+            "accuracy": 30.0,
+            "grenadechance": 0.0,
+            "dog": 1,
+            "weaponpool": [
+                "Predefined_VSS",
+                "Predefined_ASVAL",
+                "Predefined_AK74",
+                "Predefined_AKS74U"
+            ],
+            "npcproperties": {
+                "headgear": [
+                    "BallisticHelmet_Greeny",
+                    "T56TankerHelmet_Olive",
+                    "BoonieHat_Dubok"
+                ],
+                "masks": [
+                    "Balaclava3Holes_Black",
+                    "BalaclavaMask_Black",
+                    "BalaclavaMask_Beige",
+                    "BalaclavaMask_Green"
+                ],
+                "vests": [
+                    "PlateCarrierVest_Green",
+                    "PlateCarrierVest_Camo",
+                    "UKAssVest_Camo",
+                    "HighCapacityVest_Olive",
+                    "SmershVest",
+                    "ChestRigVest_Tan"
+                ],
+                "backpacks": [
+                    "TortillaBag",
+                    "Attack2Bag_Ttsko"
+                ],
+                "bodywear": [
+                    "FNOJacket",
+                    "GorkaEJacket_Summer"
+                ],
+                "belts": [
+                    "MilitaryBelt"
+                ],
+                "pants": [
+                    "FNOPants",
+                    "GorkaPants_Summer"
+                ],
+                "shoes": [
+                    "TTSKOBoots",
+                    "AthleticShoes_Blue",
+                    "HikingBoots_Brown",
+                    "ColdOperationBoots_Green",
+                    "CombatBoots_Black"
+                ],
+                "gloves": [
+                    "WoolGlovesFingerless_Green",
+                    "TacticalGloves_Black",
+                    "TacticalGloves_Green",
+                    "WoolGlovesFingerless_Black"
+                ],
+                "armband": [],
+                "loot": [
+                    "Ammo_9x39AP",
+                    "Ammo_9x39AP",
+                    "AmmoBox_9x39AP_20Rnd",
+                    "AmmoBox_9x39AP_20Rnd",
+                    "Ammo_545x39",
+                    "Ammo_545x39",
+                    "AmmoBox_545x39_20Rnd",
+                    "AmmoBox_545x39_20Rnd",
+                    "PunchedCard",
+                    "Iceaxe",
+                    "SewingKit",
+                    "LeatherSewingKit",
+                    "RemoteDetonator",
+                    "Lockpick",
+                    "EpoxyPutty",
+                    "ElectronicRepairKit",
+                    "DuctTape",
+                    "ClaymoreMine",
+                    "FlashGrenade",
+                    "RGD5Grenade"
+                ]
+            }
+        },
+        {
+            "name": "Special_Forces_Patrol",
+            "faction": "Bandits",
+            "waypoints": [
+                "4925.330078, 475.082001, 15068.000000",
+				"5683.649902, 474.053009, 15233.900391",
+				"6437.299805, 466.106995, 14986.099609",
+				"7053.926758, 354.730469, 14582.780273",
+				"6558.439941, 372.994995, 14447.299805",
+				"5638.879883, 360.196991, 14532.900391",
+				"4564.240234, 367.342987, 14622.500000"
+            ],
+            "npcclasses": [
+                "BanditAI_Linda",
+                "BanditAI_Hassan",
+                "BanditAI_Indar",
+                "BanditAI_Jose"
+            ],
+            "accuracy": 30.0,
+            "grenadechance": 0.0,
+            "dog": 1,
+            "weaponpool": [
+                "Predefined_FAL",
+                "Predefined_Scout",
+                "Predefined_SCARL",
+                "Predefined_SCARH",
+                "Predefined_Deagle",
+                "Predefined_R12"
+            ],
+            "npcproperties": {
+                "headgear": [
+                    "Mich2001Helmet",
+                    "MilitaryCap_Woodland",
+                    "BallisticHelmet_Woodland",
+                    "BoonieHat_DPM",
+                    "BoonieHat_Flecktran"
+                ],
+                "masks": [
+                    "BalaclavaMask_Black",
+                    "BalaclavaMask_Green",
+                    "BalaclavaMask_Beige"
+                ],
+                "vests": [
+                    "ChestRigVest_Tan",
+                    "PlateCarrierVest_Camo",
+                    "UKAssVest_Khaki",
+                    "UKAssVest_Olive"
+                ],
+                "backpacks": [
+                    "CoyoteBag_Green",
+                    "AssaultBag_Green"
+                ],
+                "bodywear": [
+                    "TacticalShirt_Olive",
+                    "M65Jacket_Khaki",
+                    "USMCJacket_Woodland"
+                ],
+                "belts": [
+                    "MilitaryBelt"
+                ],
+                "pants": [
+                    "USMCPants_Woodland"
+                ],
+                "shoes": [
+                    "JungleBoots_Olive"
+                ],
+                "gloves": [
+                    "TacticalGloves_Beige",
+                    "TacticalGloves_Green"
+                ],
+                "armband": [],
+                "loot": [
+                    "Ammo_308Win",
+                    "Ammo_308Win",
+                    "AmmoBox_308Win_20Rnd",
+                    "AmmoBox_308Win_20Rnd",
+                    "Ammo_556x45",
+                    "Ammo_556x45",
+                    "AmmoBox_556x45_20Rnd",
+                    "AmmoBox_556x45_20Rnd",
+                    "PunchedCard",
+                    "Iceaxe",
+                    "SewingKit",
+                    "LeatherSewingKit",
+                    "RemoteDetonator",
+                    "Lockpick",
+                    "EpoxyPutty",
+                    "ElectronicRepairKit",
+                    "DuctTape",
+                    "ClaymoreMine",
+                    "FlashGrenade",
+                    "RGD5Grenade"
+                ]
+            }
+        },
+        {
+            "name": "UN_Patrol",
+            "faction": "Guards",
+            "waypoints": [
+                "395.567566, 294.424835, 9448.420898",
+				"856.181030, 331.748993, 9905.129883",
+				"1287.359985, 340.799988, 10052.500000",
+				"1503.109985, 240.464005, 10604.099609",
+				"2207.020020, 265.346008, 11092.500000",
+				"2676.739990, 273.691010, 9918.919922",
+				"3732.500000, 310.989990, 8903.709961",
+				"3002.520020, 315.227997, 7817.319824"
+            ],
+            "npcclasses": [
+                "BanditAI_Keiko",
+                "BanditAI_Linda",
+                "BanditAI_Rolf",
+                "BanditAI_Denis",
+                "BanditAI_Adam",
+                "BanditAI_Hassan",
+                "BanditAI_Indar",
+                "BanditAI_Jose"
+            ],
+            "accuracy": 30.0,
+            "grenadechance": 0.0,
+            "dog": 1,
+            "weaponpool": [
+                "Predefined_AK101_Green",
+                "Predefined_M16A2",
+                "Predefined_MP5",
+                "Predefined_FAMAS",
+                "Predefined_Aug",
+                "Predefined_UMP45",
+                "Predefined_AugShort"
+            ],
+            "npcproperties": {
+                "headgear": [
+                    "BallisticHelmet_UN",
+                    "MilitaryBeret_UN",
+                    "BoonieHat_Blue"
+                ],
+                "masks": [],
+                "vests": [
+                    "PressVest_Blue",
+                    "HighCapacityVest_Olive",
+                    "PlateCarrierVest"
+                ],
+                "backpacks": [
+                    "AliceBag_Camo"
+                ],
+                "bodywear": [
+                    "USMCJacket_Woodland",
+                    "TacticalShirt_Olive",
+                    "M65Jacket_Olive",
+                    "BDUJacket",
+                    "TacticalShirt_Tan"
+                ],
+                "belts": [
+                    "MilitaryBelt"
+                ],
+                "pants": [
+                    "BDUPants",
+                    "CargoPants_Green",
+                    "CargoPants_Beige"
+                ],
+                "shoes": [
+                    "MilitaryBoots_Black"
+                ],
+                "gloves": [
+                    "TacticalGloves_Black"
+                ],
+                "armband": [
+                    "Armband_Blue"
+                ],
+                "loot": [
+                    "AmmoBox_556x45_20Rnd",
+                    "AmmoBox_556x45_20Rnd",
+                    "AmmoBox_556x45_20Rnd",
+                    "Ammo_556x45",
+                    "Ammo_556x45",
+                    "Ammo_556x45",
+                    "CombatKnife",
+                    "TacticalBaconCan",
+                    "Canteen",
+                    "Ammo_FlareBlue",
+                    "Roadflare",
+                    "Flaregun",
+                    "DuctTape"
+                ]
+            }
+        },
+        {
+            "name": "Hunters_Patrol",
+            "faction": "Guards",
+            "waypoints": [
+                "8144.479980, 475.183014, 9133.929688",
+				"7391.470215, 387.510010, 9316.339844",
+				"7051.029785, 366.242004, 9942.490234",
+				"6201.109863, 261.398987, 11368.799805",
+				"5278.350098, 220.884995, 11901.000000",
+				"4848.490234, 191.035995, 13580.099609"
+            ],
+            "npcclasses": [
+                "BanditAI_Linda",
+                "BanditAI_Hassan",
+                "BanditAI_Indar",
+                "BanditAI_Jose"
+            ],
+            "accuracy": 30.0,
+            "grenadechance": 0.0,
+            "dog": 1,
+            "weaponpool": [
+                "Predefined_Blaze",
+                "Predefined_Winchester70",
+                "Predefined_R12",
+                "Izh43Shotgun"
+            ],
+            "npcproperties": {
+                "headgear": [
+                    "BoonieHat_Olive",
+                    "BoonieHat_Flecktran",
+                    "RadarCap_Green",
+                    "RadarCap_Brown",
+                    "RadarCap_Black",
+                    "WinterCoif_Green",
+                    "WinterCoif_Black"
+                ],
+                "masks": [],
+                "vests": [
+                    "LinenVest_Black",
+                    "HuntingVest",
+                    "LeatherStorageVest_Black"
+                ],
+                "backpacks": [
+                    "LeatherSack_Black",
+                    "DuffelBagSmall_Green",
+                    "HuntingBag",
+                    "MountainBag_Green",
+                    "MountainBag_Blue",
+                    "SlingBag_Brown"
+                ],
+                "bodywear": [
+                    "HuntingJacket_Summer",
+                    "HuntingJacket_Brown",
+                    "HuntingJacket_Autumn",
+                    "HuntingJacket_Spring"
+                ],
+                "belts": [
+                    "LeatherBelt_Black",
+                    "LeatherBelt_Brown",
+                    "LeatherKnifeSheath",
+                    "NylonKnifeSheath"
+                ],
+                "pants": [
+                    "HunterPants_Summer",
+                    "HunterPants_Brown",
+                    "HunterPants_Autumn",
+                    "HunterPants_Spring"
+                ],
+                "shoes": [
+                    "CombatBoots_Black",
+                    "CombatBoots_Beige",
+                    "CombatBoots_Brown",
+                    "CombatBoots_Green",
+                    "CombatBoots_Grey"
+                ],
+                "gloves": [
+                    "WoolGlovesFingerless_Black",
+                    "WoolGlovesFingerless_Green",
+                    "WoolGloves_Black",
+                    "WoolGloves_Green",
+                    "LeatherGloves_Black"
+                ],
+                "armband": [],
+                "loot": [
+                    "Ammo_308Win",
+                    "Ammo_308Win",
+                    "AmmoBox_308Win_20Rnd",
+                    "AmmoBox_308Win_20Rnd",
+                    "WoodAxe",
+                    "SewingKit",
+                    "LeatherSewingKit",
+                    "ElectronicRepairKit",
+                    "DuctTape",
+                    "HuntingKnife",
+                    "Pickaxe"
+                ]
+            }
+        },
+        {
+            "name": "VMC_MR",
+            "faction": "Bandits",
+            "waypoints": [
+                "4591.689941, 318.733002, 8235.419922",
+				"4557.950195, 317.989990, 8366.509766",
+				"4427.899902, 313.403992, 8271.120117",
+				"4529.240234, 316.085999, 8237.740234"
+            ],
+            "npcclasses": [
+                "BanditAI_Quinn",
+                "BanditAI_Rolf",
+                "BanditAI_Denis",
+                "BanditAI_Adam",
+                "BanditAI_Seth"
+            ],
+            "accuracy": 30.0,
+            "grenadechance": 0.0,
+            "dog": 1,
+            "weaponpool": [
+                "Predefined_AKS74U",
+                "Predefined_AK74",
+                "Predefined_Saiga",
+                "Predefined_SV98",
+                "Predefined_AK101_Green"
+            ],
+            "npcproperties": {
+                "headgear": [
+                    "GorkaHelmet",
+                    "Ssh68Helmet",
+                    "PilotkaCap",
+                    "T56TankerHelmet_Olive"
+                ],
+                "masks": [
+                    "GP5GasMask",
+                    "BalaclavaMask_Black",
+                    "BalaclavaMask_Green"
+                ],
+                "vests": [
+                    "SmershVest",
+                    "HighCapacityVest_Olive",
+                    "UKAssVest_Camo",
+                    "PlateCarrierVest_Green",
+                    "PlateCarrierVest_Camo"
+                ],
+                "backpacks": [
+                    "AliceBag_Camo",
+                    "Attack2Bag_Ttsko",
+                    "AssaultBag_Ttsko",
+                    "ArmyPouch_Camo"
+                ],
+                "bodywear": [
+                    "GorkaEJacket_PautRev",
+                    "GorkaEJacket_Autumn",
+                    "TTsKOJacket_Camo",
+                    "TelnyashkaShirt",
+                    "OBRJacket_Officer",
+                    "MilitarySweater_Chernarus"
+                ],
+                "belts": [
+                    "MilitaryBelt"
+                ],
+                "pants": [
+                    "GorkaPants_Autumn",
+                    "GorkaPants_PautRev",
+                    "TTSKOPants",
+                    "OBRPants_Beige"
+                ],
+                "shoes": [
+                    "MilitaryBoots_Brown",
+                    "ColdOperationBoots_Green"
+                ],
+                "gloves": [
+                    "WoolGloves_Green",
+                    "WoolGlovesFingerless_Black",
+                    "WoolGlovesFingerless_Greem",
+                    "OMNOGloves_Gray"
+                ],
+                "armband": [
+                    "Armband_Chernarus"
+                ],
+                "loot": [
+                    "AmmoBox_545x39_20Rnd",
+                    "AmmoBox_545x39_20Rnd",
+                    "AmmoBox_545x39_20Rnd",
+                    "AmmoBox_00buck_10rnd",
+                    "Ammo_545x39",
+                    "Ammo_545x39",
+                    "Ammo_545x39",
+                    "Ammo_12gaPellets",
+                    "CombatKnife",
+                    "TacticalBaconCan",
+                    "Canteen",
+                    "Ammo_FlareGreen",
+                    "Roadflare",
+                    "Flaregun",
+                    "Ammo_762x54",
+                    "AmmoBox_762x54_20Rnd",
+                    "Ammo_556x45",
+                    "AmmoBox_556x45_20Rnd",
+                    "DuctTape"
                 ]
             }
         }
     ],
     "SniperLocations": [
         {
-            "name": "Sniper1",
+            "name": "Ghillegod",
             "positions": [
-                "0 0 0"
+                "11164.198242, 18.706299, 2500.334961"
             ],
             "npcclass": "BanditAI_Keiko",
             "accuracy": 30.0,
             "fixedpos": 0,
-            "triggerpos": "0 0 0",
+            "triggerpos": "11030.534180, -17.978258, 2687.314453",
             "weaponpool": [
-                "Predefined_Psycho"
+                "Predefined_Mosin"
             ],
             "npcproperties": {
-                "headgear": [],
+                "headgear": [
+					"GhillieHood_Mossy"
+				],
                 "masks": [],
                 "vests": [],
                 "backpacks": [
-                    "HuntingBag"
+                    "GhillieTop_Mossy"
                 ],
                 "bodywear": [
-                    "HuntingJacket_Brown"
+                    "GhillieSuit_Mossy"
                 ],
                 "belts": [],
                 "pants": [
@@ -2595,22 +3600,19 @@
             ]
         },
         {
-            "name": "Predefined_Psycho",
-            "weapon": "Machete",
-            "attachments": []
-        },
-        {
             "name": "Predefined_RAK",
             "weapon": "PM73Rak",
             "attachments": [
-                "Mag_PM73Rak_25Rnd"
+                "Mag_PM73_25Rnd"
             ]
         },
         {
             "name": "Predefined_Mosin",
             "weapon": "Mosin9130",
             "attachments": [
-                "Mosin_Bayonet"
+                "GhillieAtt_Mossy",
+				"Mosin_Compensator",
+				"PUScopeOptic"
             ]
         },
         {
@@ -2666,6 +3668,189 @@
             "attachments": [
                 "Mag_Saiga_8Rnd",
                 "Saiga_Bttstck"
+            ]
+        },
+        {
+            "name": "Predefined_MP18",
+            "weapon": "MP18",
+            "attachments": [
+                "Mag_MP18_Drum32Rnd"
+            ]
+        },
+        {
+            "name": "Predefined_R12",
+            "weapon": "R12",
+            "attachments": []
+        },
+        {
+            "name": "Predefined_LeeEnfield",
+            "weapon": "LeeEnfield",
+            "attachments": [
+                "Mag_LeeEnfield_10Rnd"
+            ]
+        },
+        {
+            "name": "Predefined_Luger",
+            "weapon": "Luger",
+            "attachments": [
+                "Mag_Luger_8Rnd"
+            ]
+        },
+        {
+            "name": "Predefined_CZ527",
+            "weapon": "CZ527",
+            "attachments": [
+                "HuntingOptic",
+                "Mag_CZ527_5rnd"
+            ]
+        },
+        {
+            "name": "Predefined_CZ550",
+            "weapon": "CZ550",
+            "attachments": [
+                "HuntingOptic",
+                "Mag_CZ550_4rnd"
+            ]
+        },
+        {
+            "name": "Predefined_Engraved1911",
+            "weapon": "Engraved1911",
+            "attachments": [
+                "Mag_1911_7Rnd"
+            ]
+        },
+        {
+            "name": "Predefined_FAL",
+            "weapon": "FAL",
+            "attachments": [
+                "MMag_FAL_20Rnd",
+                "Fal_FoldingBttstck"
+            ]
+        },
+        {
+            "name": "Predefined_Scout",
+            "weapon": "Scout",
+            "attachments": [
+                "ACOGOptic",
+                "Mag_Scout_5Rnd"
+            ]
+        },
+        {
+            "name": "Predefined_SCARL",
+            "weapon": "SCARL",
+            "attachments": [
+                "SCAR_PrecisionBttstck",
+                "Mag_STANAGCoupled_30Rnd",
+                "HoloOptic",
+                "UniversalLight"
+            ]
+        },
+        {
+            "name": "Predefined_SCARH",
+            "weapon": "SCARH",
+            "attachments": [
+                "Mag_SCARH_20Rnd",
+                "SCAR_StockBttstck",
+                "UniversalLight",
+                "ACOGOptic_6x"
+            ]
+        },
+        {
+            "name": "Predefined_Repeater",
+            "weapon": "Repeater",
+            "attachments": []
+        },
+        {
+            "name": "Predefined_ASVAL",
+            "weapon": "Engraved1911",
+            "attachments": [
+                "Mag_VAL_20Rnd",
+                "UniversalLight"
+            ]
+        },
+        {
+            "name": "Predefined_UMP45",
+            "weapon": "UMP45",
+            "attachments": [
+                "Mag_UMP_25Rnd"
+            ]
+        },
+        {
+            "name": "Predefined_SV98",
+            "weapon": "Engraved1911",
+            "attachments": [
+                "MK4Optic_Black",
+                "Mag_SV98_10Rnd"
+            ]
+        },
+        {
+            "name": "Predefined_Vikhr",
+            "weapon": "Vikhr",
+            "attachments": [
+                "Mag_Vikhr_30Rnd"
+            ]
+        },
+        {
+            "name": "Predefined_VSS",
+            "weapon": "VSS",
+            "attachments": [
+                "Mag_VSS_10Rnd",
+                "PSO11Optic"
+            ]
+        },
+        {
+            "name": "Predefined_Winchester70",
+            "weapon": "Winchester70",
+            "attachments": [
+                "HuntingOptic"
+            ]
+        },
+        {
+            "name": "Predefined_Blaze",
+            "weapon": "B95",
+            "attachments": [
+                "SportingOptic"
+            ]
+        },
+        {
+            "name": "Predefined_Izh18",
+            "weapon": "Izh18",
+            "attachments": []
+        },
+        {
+            "name": "Predefined_AugShort",
+            "weapon": "AugShort",
+            "attachments": [
+                "Mag_Aug_30Rnd"
+            ]
+        },
+        {
+            "name": "Predefined_Aug",
+            "weapon": "Aug",
+            "attachments": [
+                "M68Optic",
+                "Mag_CMAG_30Rnd"
+            ]
+        },
+        {
+            "name": "Predefined_SSG82",
+            "weapon": "SSG82",
+            "attachments": [
+                "Mag_SSG82_5rnd"
+            ]
+        },
+        {
+            "name": "Predefined_CZ75",
+            "weapon": "CZ75",
+            "attachments": [
+                "Mag_CZ75_15Rnd"
+            ]
+        },
+        {
+            "name": "Predefined_Deagle",
+            "weapon": "Deagle",
+            "attachments": [
+                "Mag_Deagle_9rnd"
             ]
         }
     ]

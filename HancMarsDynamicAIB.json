@@ -5545,9 +5545,9 @@
             "name": "AIRFIELD_BANDIT_BOSS",
             "faction": "Bandits",
             "waypoints": [
-                "4043.032715, 372.719635, 11714.782227",
-                "4040.963867, 372.719635, 11711.655273",
-                "4046.852295, 372.719635, 11700.447266"
+                "4043.032715 372.719635 11714.782227",
+                "4040.963867 372.719635 11711.655273",
+                "4046.852295 372.719635 11700.447266"
             ],
             "npcclasses": [
                 "BanditAI_Lewis"
@@ -5853,16 +5853,16 @@
                     "WitchHood_Black",
                     "Headdress_Wolf",
                     "TurbanHat_Black",
-					"Shemag_Red",
-					"LeatherHat_Black",
-					"HeadCover_Improvised",
-					""
+                    "Shemag_Red",
+                    "LeatherHat_Black",
+                    "HeadCover_Improvised",
+                    ""
                 ],
                 "masks": [
                     "HockeyMask",
                     "FaceCover_Improvised",
                     "MimeMask_Male",
-					""
+                    ""
                 ],
                 "vests": [
                     "RobeVest_Grey",
@@ -5878,12 +5878,12 @@
                     "TorsoCover_Improvised",
                     "LeatherShirt_Natural",
                     "LeatherJacket_Black",
-					""
+                    ""
                 ],
                 "belts": [
                     "LeatherKnifeSheath",
                     "LeatherBelt_Black",
-					""
+                    ""
                 ],
                 "pants": [
                     "MensShalwarPants_Black",
@@ -5959,16 +5959,16 @@
                     "WitchHood_Black",
                     "Headdress_Wolf",
                     "TurbanHat_Black",
-					"Shemag_Red",
-					"LeatherHat_Black",
-					"HeadCover_Improvised",
-					""
+                    "Shemag_Red",
+                    "LeatherHat_Black",
+                    "HeadCover_Improvised",
+                    ""
                 ],
                 "masks": [
                     "HockeyMask",
                     "FaceCover_Improvised",
                     "MimeMask_Male",
-					""
+                    ""
                 ],
                 "vests": [
                     "RobeVest_Grey",
@@ -5984,12 +5984,12 @@
                     "TorsoCover_Improvised",
                     "LeatherShirt_Natural",
                     "LeatherJacket_Black",
-					""
+                    ""
                 ],
                 "belts": [
                     "LeatherKnifeSheath",
                     "LeatherBelt_Black",
-					""
+                    ""
                 ],
                 "pants": [
                     "MensShalwarPants_Black",
@@ -6042,9 +6042,9 @@
                 "12881.200195 6.302430 9361.009766",
                 "12824.000000 5.730130 8845.030273",
                 "13027.400391 5.723590 8124.899902",
-				"13459.363281 -2.509327 6429.669434",
-				"13387.700195 6.073310 5207.479980",
-				"13405.900391 5.794860 4205.810059"
+                "13459.363281 -2.509327 6429.669434",
+                "13387.700195 6.073310 5207.479980",
+                "13405.900391 5.794860 4205.810059"
             ],
             "npcclasses": [
                 "BanditAI_Rolf",
@@ -6068,36 +6068,34 @@
                     "WitchHood_Black",
                     "Headdress_Wolf",
                     "TurbanHat_Black",
-					"Shemag_Red",
-					"LeatherHat_Black",
-					"HeadCover_Improvised",
-					""
+                    "Shemag_Red",
+                    "LeatherHat_Black",
+                    "HeadCover_Improvised",
+                    ""
                 ],
                 "masks": [
                     "HockeyMask",
                     "FaceCover_Improvised",
                     "MimeMask_Male",
-					""
+                    ""
                 ],
                 "vests": [
                     "RobeVest_Grey",
                     "LinenVest_Black",
                     ""
                 ],
-                "backpacks": [
-
-                ],
+                "backpacks": [],
                 "bodywear": [
                     "GulagJacket_Grey",
                     "TorsoCover_Improvised",
                     "LeatherShirt_Natural",
                     "LeatherJacket_Black",
-					""
+                    ""
                 ],
                 "belts": [
                     "LeatherKnifeSheath",
                     "LeatherBelt_Black",
-					""
+                    ""
                 ],
                 "pants": [
                     "MensShalwarPants_Black",
@@ -6113,9 +6111,7 @@
                     "LeatherShoes_Black",
                     "FeetCover_Improvised"
                 ],
-                "gloves": [
-
-                ],
+                "gloves": [],
                 "armband": [],
                 "loot": [
                     "HumanSteakMeat",
@@ -6145,11 +6141,11 @@
                 "8355.900391 12.595200 3017.520020",
                 "7069.371094 10.459421 3223.108643",
                 "6189.509766 11.179300 2357.679932",
-				"4499.740234 5.550250 2459.310059",
-				"3697.379883 6.689548 2487.159912",
-				"2672.780029 6.001251 2013.770020",
-				"1913.729980 6.147630 2245.739990",
-				"1139.790039 6.029110 2384.959961"
+                "4499.740234 5.550250 2459.310059",
+                "3697.379883 6.689548 2487.159912",
+                "2672.780029 6.001251 2013.770020",
+                "1913.729980 6.147630 2245.739990",
+                "1139.790039 6.029110 2384.959961"
             ],
             "npcclasses": [
                 "BanditAI_Rolf",
@@ -6173,36 +6169,34 @@
                     "WitchHood_Black",
                     "Headdress_Wolf",
                     "TurbanHat_Black",
-					"Shemag_Red",
-					"LeatherHat_Black",
-					"HeadCover_Improvised",
-					""
+                    "Shemag_Red",
+                    "LeatherHat_Black",
+                    "HeadCover_Improvised",
+                    ""
                 ],
                 "masks": [
                     "HockeyMask",
                     "FaceCover_Improvised",
                     "MimeMask_Male",
-					""
+                    ""
                 ],
                 "vests": [
                     "RobeVest_Grey",
                     "LinenVest_Black",
                     ""
                 ],
-                "backpacks": [
-
-                ],
+                "backpacks": [],
                 "bodywear": [
                     "GulagJacket_Grey",
                     "TorsoCover_Improvised",
                     "LeatherShirt_Natural",
                     "LeatherJacket_Black",
-					""
+                    ""
                 ],
                 "belts": [
                     "LeatherKnifeSheath",
                     "LeatherBelt_Black",
-					""
+                    ""
                 ],
                 "pants": [
                     "MensShalwarPants_Black",
@@ -6218,9 +6212,7 @@
                     "LeatherShoes_Black",
                     "FeetCover_Improvised"
                 ],
-                "gloves": [
-
-                ],
+                "gloves": [],
                 "armband": [],
                 "loot": [
                     "HumanSteakMeat",
@@ -6245,19 +6237,19 @@
                 "3023.989990 208.692001 12573.400391",
                 "1858.589966 259.238007 11499.599609",
                 "1430.644775 296.707428 11045.445313",
-				"1045.760010 305.338013 10574.299805",
-				"1569.369995 264.730011 10342.200195",
-				"2701.239990 273.947998 9973.250000",
-				"2520.669922 255.337997 9616.679688",
-				"3777.300049 310.993988 8885.500000",
-				"5173.419922 346.360992 8599.299805",
-				"6084.250000 261.690002 10560.700195",
-				"5432.080078 160.410995 12605.400391",
-				"3827.209961 185.951996 13127.799805",
-				"2842.989990 216.897995 12369.099609",
-				"2268.760010 369.278992 13639.200195",
-				"1568.660034 452.462006 14108.700195",
-				"1721.339966 451.730011 14296.099609"
+                "1045.760010 305.338013 10574.299805",
+                "1569.369995 264.730011 10342.200195",
+                "2701.239990 273.947998 9973.250000",
+                "2520.669922 255.337997 9616.679688",
+                "3777.300049 310.993988 8885.500000",
+                "5173.419922 346.360992 8599.299805",
+                "6084.250000 261.690002 10560.700195",
+                "5432.080078 160.410995 12605.400391",
+                "3827.209961 185.951996 13127.799805",
+                "2842.989990 216.897995 12369.099609",
+                "2268.760010 369.278992 13639.200195",
+                "1568.660034 452.462006 14108.700195",
+                "1721.339966 451.730011 14296.099609"
             ],
             "npcclasses": [
                 "BanditAI_Quinn",
@@ -6363,21 +6355,21 @@
                 "9218.690430 88.279999 13321.400391",
                 "9317.469727 80.419098 13689.900391",
                 "10641.799805 50.620201 14254.099609",
-				"12130.400391 27.389999 14431.400391",
-				"13489.200195 5.682250 13856.099609",
-				"14047.599609 3.314419 13413.000000",
-				"13548.700195 33.434502 11724.900391",
-				"12978.799805 84.371002 12046.099609",
-				"12132.700195 122.317001 12233.200195",
-				"11054.400391 219.214996 12365.500000",
-				"9905.530273 248.945999 12325.700195",
-				"9394.690430 235.880997 11556.400391",
-				"9878.889648 164.417007 10417.799805",
-				"10258.599609 140.908997 9807.389648",
-				"12728.099609 6.004991 9825.679688",
-				"13100.099609 5.990000 10360.799805",
-				"13586.700195 12.904200 11448.500000",
-				"13367.500000 94.823502 12854.000000"
+                "12130.400391 27.389999 14431.400391",
+                "13489.200195 5.682250 13856.099609",
+                "14047.599609 3.314419 13413.000000",
+                "13548.700195 33.434502 11724.900391",
+                "12978.799805 84.371002 12046.099609",
+                "12132.700195 122.317001 12233.200195",
+                "11054.400391 219.214996 12365.500000",
+                "9905.530273 248.945999 12325.700195",
+                "9394.690430 235.880997 11556.400391",
+                "9878.889648 164.417007 10417.799805",
+                "10258.599609 140.908997 9807.389648",
+                "12728.099609 6.004991 9825.679688",
+                "13100.099609 5.990000 10360.799805",
+                "13586.700195 12.904200 11448.500000",
+                "13367.500000 94.823502 12854.000000"
             ],
             "npcclasses": [
                 "BanditAI_Linda",
@@ -6517,9 +6509,9 @@
                 "4125.001465 342.764252 10436.443359",
                 "4135.981934 342.755798 10421.729492",
                 "4155.789551 339.151031 10401.548828",
-				"4137.136230 339.002167 10404.541016",
-				"4131.643066 339.002167 10423.155273",
-				"4122.885254 339.002167 10432.780273"
+                "4137.136230 339.002167 10404.541016",
+                "4131.643066 339.002167 10423.155273",
+                "4122.885254 339.002167 10432.780273"
             ],
             "npcclasses": [
                 "BanditAI_Indar",
@@ -6605,8 +6597,8 @@
                 "2592.959961 142.929001 3452.899902",
                 "2665.760010 126.580002 3013.199951",
                 "2105.719971 80.305901 2961.149902",
-				"1931.079956 105.362999 3207.989990",
-				"1812.439941 131.050003 3456.820068"
+                "1931.079956 105.362999 3207.989990",
+                "1812.439941 131.050003 3456.820068"
             ],
             "npcclasses": [
                 "BanditAI_Indar",
@@ -6620,18 +6612,18 @@
             "dog": 1,
             "weaponpool": [
                 "Predefined_MP5",
-				"Predefined_Scout",
-				"Predefined_R12"
+                "Predefined_Scout",
+                "Predefined_R12"
             ],
             "npcproperties": {
                 "headgear": [
                     "NBCHoodGray"
                 ],
                 "masks": [
-					"GasMask",
-					"GP5GasMask",
-					"AirborneMask"
-				],
+                    "GasMask",
+                    "GP5GasMask",
+                    "AirborneMask"
+                ],
                 "vests": [
                     "ChestRigVest_Tan"
                 ],
@@ -6653,8 +6645,7 @@
                 "gloves": [
                     "NBCGlovesGray"
                 ],
-                "armband": [
-                ],
+                "armband": [],
                 "loot": [
                     "Ammo_556x45",
                     "Ammo_9x19",
@@ -6664,8 +6655,8 @@
                     "Roadflare",
                     "Flaregun",
                     "TireRepairKit",
-					"GasMask_Filter",
-					"GasMask_Filter_Improvised"
+                    "GasMask_Filter",
+                    "GasMask_Filter_Improvised"
                 ]
             }
         },
@@ -6692,18 +6683,18 @@
             "dog": 1,
             "weaponpool": [
                 "Predefined_MP5",
-				"Predefined_Scout",
-				"Predefined_R12"
+                "Predefined_Scout",
+                "Predefined_R12"
             ],
             "npcproperties": {
                 "headgear": [
                     "NBCHoodGray"
                 ],
                 "masks": [
-					"GasMask",
-					"GP5GasMask",
-					"AirborneMask"
-				],
+                    "GasMask",
+                    "GP5GasMask",
+                    "AirborneMask"
+                ],
                 "vests": [
                     "ChestRigVest_Tan"
                 ],
@@ -6725,8 +6716,7 @@
                 "gloves": [
                     "NBCGlovesGray"
                 ],
-                "armband": [
-                ],
+                "armband": [],
                 "loot": [
                     "Ammo_556x45",
                     "Ammo_9x19",
@@ -6736,8 +6726,8 @@
                     "Roadflare",
                     "Flaregun",
                     "TireRepairKit",
-					"GasMask_Filter",
-					"GasMask_Filter_Improvised"
+                    "GasMask_Filter",
+                    "GasMask_Filter_Improvised"
                 ]
             }
         },
@@ -6762,18 +6752,18 @@
             "dog": 1,
             "weaponpool": [
                 "Predefined_MP5",
-				"Predefined_Scout",
-				"Predefined_R12"
+                "Predefined_Scout",
+                "Predefined_R12"
             ],
             "npcproperties": {
                 "headgear": [
                     "NBCHoodGray"
                 ],
                 "masks": [
-					"GasMask",
-					"GP5GasMask",
-					"AirborneMask"
-				],
+                    "GasMask",
+                    "GP5GasMask",
+                    "AirborneMask"
+                ],
                 "vests": [
                     "ChestRigVest_Tan"
                 ],
@@ -6795,8 +6785,7 @@
                 "gloves": [
                     "NBCGlovesGray"
                 ],
-                "armband": [
-                ],
+                "armband": [],
                 "loot": [
                     "Ammo_556x45",
                     "Ammo_9x19",
@@ -6806,8 +6795,8 @@
                     "Roadflare",
                     "Flaregun",
                     "TireRepairKit",
-					"GasMask_Filter",
-					"GasMask_Filter_Improvised"
+                    "GasMask_Filter",
+                    "GasMask_Filter_Improvised"
                 ]
             }
         },
@@ -6819,7 +6808,7 @@
                 "1187.640015 185.283005 7259.689941",
                 "1186.689941 185.192993 7210.410156",
                 "1135.939941 185.339996 7216.500000",
-				"1156.436279 185.364990 7226.255371"
+                "1156.436279 185.364990 7226.255371"
             ],
             "npcclasses": [
                 "BanditAI_Indar",
@@ -6833,18 +6822,18 @@
             "dog": 1,
             "weaponpool": [
                 "Predefined_MP5",
-				"Predefined_Scout",
-				"Predefined_R12"
+                "Predefined_Scout",
+                "Predefined_R12"
             ],
             "npcproperties": {
                 "headgear": [
                     "NBCHoodGray"
                 ],
                 "masks": [
-					"GasMask",
-					"GP5GasMask",
-					"AirborneMask"
-				],
+                    "GasMask",
+                    "GP5GasMask",
+                    "AirborneMask"
+                ],
                 "vests": [
                     "ChestRigVest_Tan"
                 ],
@@ -6866,8 +6855,7 @@
                 "gloves": [
                     "NBCGlovesGray"
                 ],
-                "armband": [
-                ],
+                "armband": [],
                 "loot": [
                     "Ammo_556x45",
                     "Ammo_9x19",
@@ -6877,8 +6865,8 @@
                     "Roadflare",
                     "Flaregun",
                     "TireRepairKit",
-					"GasMask_Filter",
-					"GasMask_Filter_Improvised"
+                    "GasMask_Filter",
+                    "GasMask_Filter_Improvised"
                 ]
             }
         },
@@ -6890,9 +6878,9 @@
                 "4767.704102 339.092957 10320.049805",
                 "4760.045898 339.092957 10308.351563",
                 "4750.527344 339.091766 10302.270508",
-				"4743.145508 339.091766 10287.755859",
-				"4723.808594 339.091766 10297.868164",
-				"4738.950195 339.002167 10320.921875"
+                "4743.145508 339.091766 10287.755859",
+                "4723.808594 339.091766 10297.868164",
+                "4738.950195 339.002167 10320.921875"
             ],
             "npcclasses": [
                 "BanditAI_Indar",
@@ -6903,18 +6891,18 @@
             "dog": 1,
             "weaponpool": [
                 "Predefined_MP5",
-				"Predefined_Scout",
-				"Predefined_R12"
+                "Predefined_Scout",
+                "Predefined_R12"
             ],
             "npcproperties": {
                 "headgear": [
                     "NBCHoodGray"
                 ],
                 "masks": [
-					"GasMask",
-					"GP5GasMask",
-					"AirborneMask"
-				],
+                    "GasMask",
+                    "GP5GasMask",
+                    "AirborneMask"
+                ],
                 "vests": [
                     "ChestRigVest_Tan"
                 ],
@@ -6936,8 +6924,7 @@
                 "gloves": [
                     "NBCGlovesGray"
                 ],
-                "armband": [
-                ],
+                "armband": [],
                 "loot": [
                     "Ammo_556x45",
                     "Ammo_9x19",
@@ -6947,8 +6934,8 @@
                     "Roadflare",
                     "Flaregun",
                     "TireRepairKit",
-					"GasMask_Filter",
-					"GasMask_Filter_Improvised"
+                    "GasMask_Filter",
+                    "GasMask_Filter_Improvised"
                 ]
             }
         },
@@ -6960,11 +6947,11 @@
                 "4410.990234 338.760986 10225.036133",
                 "4429.407227 339.044220 10233.611328",
                 "4421.833984 339.040039 10248.840820",
-				"4634.020020 339.000000 10306.200195",
-				"4679.574707 339.024811 10320.715820",
-				"4708.846680 339.024841 10312.717773",
-				"4726.243164 339.024841 10334.786133",
-				"4700.562500 339.024933 10347.399414"
+                "4634.020020 339.000000 10306.200195",
+                "4679.574707 339.024811 10320.715820",
+                "4708.846680 339.024841 10312.717773",
+                "4726.243164 339.024841 10334.786133",
+                "4700.562500 339.024933 10347.399414"
             ],
             "npcclasses": [
                 "BanditAI_Indar",
@@ -6977,15 +6964,14 @@
             "dog": 1,
             "weaponpool": [
                 "Predefined_IJ",
-				"Predefined_RAK",
-				"Predefined_Luger"
+                "Predefined_RAK",
+                "Predefined_Luger"
             ],
             "npcproperties": {
                 "headgear": [
                     "ZSh3PilotHelmet"
                 ],
-                "masks": [
-				],
+                "masks": [],
                 "vests": [
                     "SmershVest"
                 ],
@@ -7007,8 +6993,7 @@
                 "gloves": [
                     "WorkingGloves_Beige"
                 ],
-                "armband": [
-                ],
+                "armband": [],
                 "loot": [
                     "Ammo_380",
                     "Ammo_9x19",
@@ -7016,7 +7001,7 @@
                     "Ammo_Flare",
                     "Roadflare",
                     "Flaregun",
-					"FilteringBottle"
+                    "FilteringBottle"
                 ]
             }
         },
@@ -7044,130 +7029,129 @@
             "dog": 1,
             "weaponpool": [
                 "Predefined_IJ",
-				"CattleProd",
-				"Predefined_Luger",
-				"CrudeMachete",
-				"DonerKnife",
-				"PipeWrench",
-				"StunBaton",
-				"Hatchet",
-				"Pipe",
-				"Crowbar",
-				"FieldShovel",
-				"Hammer",
-				"Iceaxe",
-				"LugWrench",
-				"Wrench",
-				"Predefined_Sawedoff",
-				"Predefined_Ruger",
-				"",
-				"",
-				"",
-				""
+                "CattleProd",
+                "Predefined_Luger",
+                "CrudeMachete",
+                "DonerKnife",
+                "PipeWrench",
+                "StunBaton",
+                "Hatchet",
+                "Pipe",
+                "Crowbar",
+                "FieldShovel",
+                "Hammer",
+                "Iceaxe",
+                "LugWrench",
+                "Wrench",
+                "Predefined_Sawedoff",
+                "Predefined_Ruger",
+                "",
+                "",
+                "",
+                ""
             ],
             "npcproperties": {
                 "headgear": [
                     "ZmijovkaCap_Black",
-					"BaseballCap_Black",
-					"BaseballCap_Beige",
-					"BaseballCap_Red",
-					"BaseballCap_Blue",
-					"BeanieHat_Blue",
-					"ConstructionHelmet_Orange",
-					"ConstructionHelmet_Yellow",
-					"ConstructionHelmet_White",
-					"ConstructionHelmet_Blue",
-					"Keffiyeh_LightBrown",
-					"RadarCap_Blue",
-					"RadarCap_Red",
-					"SherpaHat_Black",
-					"SherpaHat_Blue",
-					"SnowstormUshanka_White",
-					"SnowstormUshanka_Navy",
-					"WeldingMask",
-					"Predefined_Izh18"
+                    "BaseballCap_Black",
+                    "BaseballCap_Beige",
+                    "BaseballCap_Red",
+                    "BaseballCap_Blue",
+                    "BeanieHat_Blue",
+                    "ConstructionHelmet_Orange",
+                    "ConstructionHelmet_Yellow",
+                    "ConstructionHelmet_White",
+                    "ConstructionHelmet_Blue",
+                    "Keffiyeh_LightBrown",
+                    "RadarCap_Blue",
+                    "RadarCap_Red",
+                    "SherpaHat_Black",
+                    "SherpaHat_Blue",
+                    "SnowstormUshanka_White",
+                    "SnowstormUshanka_Navy",
+                    "WeldingMask",
+                    "Predefined_Izh18"
                 ],
                 "masks": [
-					"",
-					"",
-					"NioshFaceMask",
-					"SurgicalMask"
-				],
+                    "",
+                    "",
+                    "NioshFaceMask",
+                    "SurgicalMask"
+                ],
                 "vests": [
                     "HighCapacityVest_ION",
-					"ReflexVest",
-					""
+                    "ReflexVest",
+                    ""
                 ],
                 "backpacks": [
                     "TaloonBag_Blue",
-					"DryBag_Orange",
-					"DryBag_Red",
-					"DryBag_Blue",
-					"DrysackBag_Green",
-					"DrysackBag_Orange",
-					"DrysackBag_Yellow",
-					"MountainBag_Green",
-					"MountainBag_Red",
-					"MountainBag_Blue",
-					"MountainBag_Orange"
+                    "DryBag_Orange",
+                    "DryBag_Red",
+                    "DryBag_Blue",
+                    "DrysackBag_Green",
+                    "DrysackBag_Orange",
+                    "DrysackBag_Yellow",
+                    "MountainBag_Green",
+                    "MountainBag_Red",
+                    "MountainBag_Blue",
+                    "MountainBag_Orange"
                 ],
                 "bodywear": [
                     "HikingJacket_Black",
-					"HikingJacket_Blue",
-					"HikingJacket_Red",
-					"HikingJacket_Green",
-					"JumpsuitJacket_Green",
-					"JumpsuitJacket_Blue",
-					"JumpsuitJacket_Gray",
-					"JumpsuitJacket_Red",
-					"GulagJacket_Grey"
+                    "HikingJacket_Blue",
+                    "HikingJacket_Red",
+                    "HikingJacket_Green",
+                    "JumpsuitJacket_Green",
+                    "JumpsuitJacket_Blue",
+                    "JumpsuitJacket_Gray",
+                    "JumpsuitJacket_Red",
+                    "GulagJacket_Grey"
                 ],
                 "belts": [
                     "HipPack_Green",
-					"HipPack_Black",
-					"RopeBelt",
-					"LeatherBelt_Black",
-					"LeatherBelt_Brown",
-					"CivilianBelt"
+                    "HipPack_Black",
+                    "RopeBelt",
+                    "LeatherBelt_Black",
+                    "LeatherBelt_Brown",
+                    "CivilianBelt"
                 ],
                 "pants": [
                     "CargoPants_Black",
-					"CargoPants_Blue",
-					"CargoPants_Grey",
-					"CargoPants_Beige",
-					"Jeans_Blue",
-					"Jeans_Brown",
-					"Jeans_Green",
-					"Jeans_Grey",
-					"Jeans_BlueDark",
-					"JumpsuitPants_Green",
-					"JumpsuitPants_Blue",
-					"JumpsuitPants_Grey",
-					"JumpsuitPants_Red"
+                    "CargoPants_Blue",
+                    "CargoPants_Grey",
+                    "CargoPants_Beige",
+                    "Jeans_Blue",
+                    "Jeans_Brown",
+                    "Jeans_Green",
+                    "Jeans_Grey",
+                    "Jeans_BlueDark",
+                    "JumpsuitPants_Green",
+                    "JumpsuitPants_Blue",
+                    "JumpsuitPants_Grey",
+                    "JumpsuitPants_Red"
                 ],
                 "shoes": [
                     "WorkingBoots_Grey",
-					"WorkingBoots_Brown",
-					"WorkingBoots_Yellow",
-					"WorkingBoots_Beige",
-					"Wellies_Black",
-					"Wellies_Brown",
-					"Wellies_Green",
-					"Wellies_Grey"
+                    "WorkingBoots_Brown",
+                    "WorkingBoots_Yellow",
+                    "WorkingBoots_Beige",
+                    "Wellies_Black",
+                    "Wellies_Brown",
+                    "Wellies_Green",
+                    "Wellies_Grey"
                 ],
                 "gloves": [
                     "WorkingGloves_Black",
-					"WorkingGloves_Beige",
-					"WorkingGloves_Brown",
-					"WorkingGloves_Yellow",
-					"PaddedGloves_Brown",
-					"PaddedGloves_Beige",
-					"PaddedGloves_Threat",
-					"SkiGloves_Blue",
-					"SkiGloves_Red"
+                    "WorkingGloves_Beige",
+                    "WorkingGloves_Brown",
+                    "WorkingGloves_Yellow",
+                    "PaddedGloves_Brown",
+                    "PaddedGloves_Beige",
+                    "PaddedGloves_Threat",
+                    "SkiGloves_Blue",
+                    "SkiGloves_Red"
                 ],
-                "armband": [
-                ],
+                "armband": [],
                 "loot": [
                     "Ammo_380",
                     "Ammo_9x19",
@@ -7175,7 +7159,7 @@
                     "Ammo_Flare",
                     "Roadflare",
                     "Flaregun",
-					"FilteringBottle"
+                    "FilteringBottle"
                 ]
             }
         },
@@ -7187,7 +7171,7 @@
                 "3557.219971 220.210007 12496.599609",
                 "3606.590088 219.714996 12590.400391",
                 "3434.280029 214.565002 12568.099609",
-				"3303.899902 217.630997 12508.500000"
+                "3303.899902 217.630997 12508.500000"
             ],
             "npcclasses": [
                 "BanditAI_Indar",
@@ -7204,130 +7188,129 @@
             "dog": 1,
             "weaponpool": [
                 "Predefined_IJ",
-				"CattleProd",
-				"Predefined_Luger",
-				"CrudeMachete",
-				"DonerKnife",
-				"PipeWrench",
-				"StunBaton",
-				"Hatchet",
-				"Pipe",
-				"Crowbar",
-				"FieldShovel",
-				"Hammer",
-				"Iceaxe",
-				"LugWrench",
-				"Wrench",
-				"Predefined_Sawedoff",
-				"Predefined_Ruger",
-				"",
-				"",
-				"",
-				""
+                "CattleProd",
+                "Predefined_Luger",
+                "CrudeMachete",
+                "DonerKnife",
+                "PipeWrench",
+                "StunBaton",
+                "Hatchet",
+                "Pipe",
+                "Crowbar",
+                "FieldShovel",
+                "Hammer",
+                "Iceaxe",
+                "LugWrench",
+                "Wrench",
+                "Predefined_Sawedoff",
+                "Predefined_Ruger",
+                "",
+                "",
+                "",
+                ""
             ],
             "npcproperties": {
                 "headgear": [
                     "ZmijovkaCap_Black",
-					"BaseballCap_Black",
-					"BaseballCap_Beige",
-					"BaseballCap_Red",
-					"BaseballCap_Blue",
-					"BeanieHat_Blue",
-					"ConstructionHelmet_Orange",
-					"ConstructionHelmet_Yellow",
-					"ConstructionHelmet_White",
-					"ConstructionHelmet_Blue",
-					"Keffiyeh_LightBrown",
-					"RadarCap_Blue",
-					"RadarCap_Red",
-					"SherpaHat_Black",
-					"SherpaHat_Blue",
-					"SnowstormUshanka_White",
-					"SnowstormUshanka_Navy",
-					"WeldingMask",
-					"Predefined_Izh18"
+                    "BaseballCap_Black",
+                    "BaseballCap_Beige",
+                    "BaseballCap_Red",
+                    "BaseballCap_Blue",
+                    "BeanieHat_Blue",
+                    "ConstructionHelmet_Orange",
+                    "ConstructionHelmet_Yellow",
+                    "ConstructionHelmet_White",
+                    "ConstructionHelmet_Blue",
+                    "Keffiyeh_LightBrown",
+                    "RadarCap_Blue",
+                    "RadarCap_Red",
+                    "SherpaHat_Black",
+                    "SherpaHat_Blue",
+                    "SnowstormUshanka_White",
+                    "SnowstormUshanka_Navy",
+                    "WeldingMask",
+                    "Predefined_Izh18"
                 ],
                 "masks": [
-					"",
-					"",
-					"NioshFaceMask",
-					"SurgicalMask"
-				],
+                    "",
+                    "",
+                    "NioshFaceMask",
+                    "SurgicalMask"
+                ],
                 "vests": [
                     "HighCapacityVest_ION",
-					"ReflexVest",
-					""
+                    "ReflexVest",
+                    ""
                 ],
                 "backpacks": [
                     "TaloonBag_Blue",
-					"DryBag_Orange",
-					"DryBag_Red",
-					"DryBag_Blue",
-					"DrysackBag_Green",
-					"DrysackBag_Orange",
-					"DrysackBag_Yellow",
-					"MountainBag_Green",
-					"MountainBag_Red",
-					"MountainBag_Blue",
-					"MountainBag_Orange"
+                    "DryBag_Orange",
+                    "DryBag_Red",
+                    "DryBag_Blue",
+                    "DrysackBag_Green",
+                    "DrysackBag_Orange",
+                    "DrysackBag_Yellow",
+                    "MountainBag_Green",
+                    "MountainBag_Red",
+                    "MountainBag_Blue",
+                    "MountainBag_Orange"
                 ],
                 "bodywear": [
                     "HikingJacket_Black",
-					"HikingJacket_Blue",
-					"HikingJacket_Red",
-					"HikingJacket_Green",
-					"JumpsuitJacket_Green",
-					"JumpsuitJacket_Blue",
-					"JumpsuitJacket_Gray",
-					"JumpsuitJacket_Red",
-					"GulagJacket_Grey"
+                    "HikingJacket_Blue",
+                    "HikingJacket_Red",
+                    "HikingJacket_Green",
+                    "JumpsuitJacket_Green",
+                    "JumpsuitJacket_Blue",
+                    "JumpsuitJacket_Gray",
+                    "JumpsuitJacket_Red",
+                    "GulagJacket_Grey"
                 ],
                 "belts": [
                     "HipPack_Green",
-					"HipPack_Black",
-					"RopeBelt",
-					"LeatherBelt_Black",
-					"LeatherBelt_Brown",
-					"CivilianBelt"
+                    "HipPack_Black",
+                    "RopeBelt",
+                    "LeatherBelt_Black",
+                    "LeatherBelt_Brown",
+                    "CivilianBelt"
                 ],
                 "pants": [
                     "CargoPants_Black",
-					"CargoPants_Blue",
-					"CargoPants_Grey",
-					"CargoPants_Beige",
-					"Jeans_Blue",
-					"Jeans_Brown",
-					"Jeans_Green",
-					"Jeans_Grey",
-					"Jeans_BlueDark",
-					"JumpsuitPants_Green",
-					"JumpsuitPants_Blue",
-					"JumpsuitPants_Grey",
-					"JumpsuitPants_Red"
+                    "CargoPants_Blue",
+                    "CargoPants_Grey",
+                    "CargoPants_Beige",
+                    "Jeans_Blue",
+                    "Jeans_Brown",
+                    "Jeans_Green",
+                    "Jeans_Grey",
+                    "Jeans_BlueDark",
+                    "JumpsuitPants_Green",
+                    "JumpsuitPants_Blue",
+                    "JumpsuitPants_Grey",
+                    "JumpsuitPants_Red"
                 ],
                 "shoes": [
                     "WorkingBoots_Grey",
-					"WorkingBoots_Brown",
-					"WorkingBoots_Yellow",
-					"WorkingBoots_Beige",
-					"Wellies_Black",
-					"Wellies_Brown",
-					"Wellies_Green",
-					"Wellies_Grey"
+                    "WorkingBoots_Brown",
+                    "WorkingBoots_Yellow",
+                    "WorkingBoots_Beige",
+                    "Wellies_Black",
+                    "Wellies_Brown",
+                    "Wellies_Green",
+                    "Wellies_Grey"
                 ],
                 "gloves": [
                     "WorkingGloves_Black",
-					"WorkingGloves_Beige",
-					"WorkingGloves_Brown",
-					"WorkingGloves_Yellow",
-					"PaddedGloves_Brown",
-					"PaddedGloves_Beige",
-					"PaddedGloves_Threat",
-					"SkiGloves_Blue",
-					"SkiGloves_Red"
+                    "WorkingGloves_Beige",
+                    "WorkingGloves_Brown",
+                    "WorkingGloves_Yellow",
+                    "PaddedGloves_Brown",
+                    "PaddedGloves_Beige",
+                    "PaddedGloves_Threat",
+                    "SkiGloves_Blue",
+                    "SkiGloves_Red"
                 ],
-                "armband": [
-                ],
+                "armband": [],
                 "loot": [
                     "Ammo_380",
                     "Ammo_9x19",
@@ -7335,7 +7318,7 @@
                     "Ammo_Flare",
                     "Roadflare",
                     "Flaregun",
-					"FilteringBottle"
+                    "FilteringBottle"
                 ]
             }
         }
@@ -7656,7 +7639,7 @@
         },
         {
             "name": "Predefined_ASVAL",
-            "weapon": "Engraved1911",
+            "weapon": "ASVAL",
             "attachments": [
                 "Mag_VAL_20Rnd",
                 "UniversalLight"
